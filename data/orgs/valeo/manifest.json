@@ -1,0 +1,67 @@
+{
+  "orgId": "valeo",
+  "displayName": "Valeo Automotive (Tier-1 UAT)",
+  "defaultCurrency": "EUR",
+  "plants": [
+    {
+      "code": "VAL-CN-SHA",
+      "name": "Valeo Shanghai",
+      "ianaTimezone": "Asia/Shanghai"
+    },
+    {
+      "code": "VAL-EU-CDG",
+      "name": "Valeo CDG (Paris hub)",
+      "ianaTimezone": "Europe/Paris"
+    },
+    {
+      "code": "VAL-EU-STR",
+      "name": "Valeo Strasbourg",
+      "ianaTimezone": "Europe/Paris"
+    },
+    {
+      "code": "VAL-JP-YOK",
+      "name": "Valeo Yokohama",
+      "ianaTimezone": "Asia/Tokyo"
+    },
+    {
+      "code": "VAL-NA-DET",
+      "name": "Valeo Detroit",
+      "ianaTimezone": "America/Chicago"
+    }
+  ],
+  "modules": [
+    "customers",
+    "products",
+    "plants",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "importOrder": [
+    "plants",
+    "customers",
+    "products",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "productSkuPrefixes": [
+    "VAL-"
+  ],
+  "shortageSkus": [
+    "VAL-CMP-AL-HOUS",
+    "VAL-FG-STLA-LED"
+  ],
+  "surgeSkus": [
+    "VAL-CMP-AL-HOUS"
+  ],
+  "connectorUrlsHint": {
+    "customers": "http://erp-import-simulator:9090/feed/valeo/customers.json",
+    "products": "http://erp-import-simulator:9090/feed/valeo/products.json",
+    "inventory": "http://erp-import-simulator:9090/feed/valeo/inventory.json",
+    "inventoryPlant": "http://erp-import-simulator:9090/feed/valeo/inventory.json?plant=VAL-EU-CDG",
+    "bom": "http://erp-import-simulator:9090/feed/valeo/bom.json",
+    "plants": "http://erp-import-simulator:9090/feed/valeo/plants.json",
+    "workforce": "http://erp-import-simulator:9090/feed/valeo/workforce.json"
+  }
+}

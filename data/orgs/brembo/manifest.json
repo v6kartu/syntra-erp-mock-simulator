@@ -1,0 +1,81 @@
+{
+  "orgId": "brembo",
+  "displayName": "Brembo Brakes (2W OEM UAT)",
+  "defaultCurrency": "EUR",
+  "plants": [
+    {
+      "code": "BRB-IN-CHN",
+      "name": "Brembo Chennai India",
+      "ianaTimezone": "Asia/Kolkata"
+    },
+    {
+      "code": "BRB-IN-HOS",
+      "name": "Brembo Hosur India",
+      "ianaTimezone": "Asia/Kolkata"
+    },
+    {
+      "code": "BRB-IN-MNS",
+      "name": "Brembo Manesar India",
+      "ianaTimezone": "Asia/Kolkata"
+    },
+    {
+      "code": "BRB-IN-PUN",
+      "name": "Brembo Pune India",
+      "ianaTimezone": "Asia/Kolkata"
+    },
+    {
+      "code": "BRB-IN-TRN",
+      "name": "Brembo Transit India",
+      "ianaTimezone": "Asia/Kolkata"
+    },
+    {
+      "code": "BRB-IT-BERG",
+      "name": "Brembo Bergamo Italy",
+      "ianaTimezone": "Europe/Rome"
+    },
+    {
+      "code": "BRB-IT-PONT",
+      "name": "Brembo Pontirolo Italy",
+      "ianaTimezone": "Europe/Rome"
+    }
+  ],
+  "modules": [
+    "customers",
+    "products",
+    "plants",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "importOrder": [
+    "plants",
+    "customers",
+    "products",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "productSkuPrefixes": [
+    "BRB-"
+  ],
+  "shortageSkus": [
+    "BRB-CMP-PIST-SS34",
+    "BRB-CMP-PAD-SINT",
+    "BRB-FG-YAM-R15F",
+    "BRB-FG-TVS-APACH"
+  ],
+  "surgeSkus": [
+    "BRB-FG-HON-ACTIV",
+    "BRB-CMP-SEAL-KIT",
+    "BRB-CMP-BDY-110"
+  ],
+  "connectorUrlsHint": {
+    "customers": "http://erp-import-simulator:9090/feed/brembo/customers.json",
+    "products": "http://erp-import-simulator:9090/feed/brembo/products.json",
+    "inventory": "http://erp-import-simulator:9090/feed/brembo/inventory.json",
+    "inventoryPlant": "http://erp-import-simulator:9090/feed/brembo/inventory.json?plant=BRB-IN-PUN",
+    "bom": "http://erp-import-simulator:9090/feed/brembo/bom.json",
+    "plants": "http://erp-import-simulator:9090/feed/brembo/plants.json",
+    "workforce": "http://erp-import-simulator:9090/feed/brembo/workforce.json"
+  }
+}

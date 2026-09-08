@@ -1,0 +1,231 @@
+[
+  {
+    "email": "operator.1@uat.example.com",
+    "firstName": "Operator",
+    "lastName": "01",
+    "displayName": "Operator 01 — Yamaha Motor India Pvt Ltd — Pune Plant",
+    "plantCode": "BRB-IN-HOS",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR",
+    "apmId": "BRBYMINPU"
+  },
+  {
+    "email": "operator.2@uat.example.com",
+    "firstName": "Operator",
+    "lastName": "02",
+    "displayName": "Operator 02 — Yamaha Motor India Pvt Ltd — Chennai Plant",
+    "plantCode": "BRB-IN-MNS",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR",
+    "apmId": "BRBYMINCH"
+  },
+  {
+    "email": "operator.3@uat.example.com",
+    "firstName": "Operator",
+    "lastName": "03",
+    "displayName": "Operator 03 — TVS Motor — Hosur Plant",
+    "plantCode": "BRB-IN-PUN",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR",
+    "apmId": "BRBTVSHOS"
+  },
+  {
+    "email": "operator.4@uat.example.com",
+    "firstName": "Operator",
+    "lastName": "04",
+    "displayName": "Operator 04 — HMSI — Vithalapur Plant (Gujarat)",
+    "plantCode": "BRB-IN-TRN",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR",
+    "apmId": "BRBHDNVIT"
+  },
+  {
+    "email": "line.brb.in.chn.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IN-CHN-1",
+    "displayName": "Brembo Chennai India Line Op 1",
+    "plantCode": "BRB-IN-CHN",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.brb.in.chn.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IN-CHN-2",
+    "displayName": "Brembo Chennai India Line Op 2",
+    "plantCode": "BRB-IN-CHN",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.brb.in.chn.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IN-CHN-3",
+    "displayName": "Brembo Chennai India Line Op 3",
+    "plantCode": "BRB-IN-CHN",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  },
+  {
+    "email": "line.brb.in.hos.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IN-HOS-1",
+    "displayName": "Brembo Hosur India Line Op 1",
+    "plantCode": "BRB-IN-HOS",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.brb.in.hos.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IN-HOS-2",
+    "displayName": "Brembo Hosur India Line Op 2",
+    "plantCode": "BRB-IN-HOS",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.brb.in.hos.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IN-HOS-3",
+    "displayName": "Brembo Hosur India Line Op 3",
+    "plantCode": "BRB-IN-HOS",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  },
+  {
+    "email": "line.brb.in.mns.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IN-MNS-1",
+    "displayName": "Brembo Manesar India Line Op 1",
+    "plantCode": "BRB-IN-MNS",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.brb.in.mns.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IN-MNS-2",
+    "displayName": "Brembo Manesar India Line Op 2",
+    "plantCode": "BRB-IN-MNS",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.brb.in.mns.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IN-MNS-3",
+    "displayName": "Brembo Manesar India Line Op 3",
+    "plantCode": "BRB-IN-MNS",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  },
+  {
+    "email": "line.brb.in.pun.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IN-PUN-1",
+    "displayName": "Brembo Pune India Line Op 1",
+    "plantCode": "BRB-IN-PUN",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.brb.in.pun.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IN-PUN-2",
+    "displayName": "Brembo Pune India Line Op 2",
+    "plantCode": "BRB-IN-PUN",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.brb.in.pun.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IN-PUN-3",
+    "displayName": "Brembo Pune India Line Op 3",
+    "plantCode": "BRB-IN-PUN",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  },
+  {
+    "email": "line.brb.in.trn.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IN-TRN-1",
+    "displayName": "Brembo Transit India Line Op 1",
+    "plantCode": "BRB-IN-TRN",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.brb.in.trn.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IN-TRN-2",
+    "displayName": "Brembo Transit India Line Op 2",
+    "plantCode": "BRB-IN-TRN",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.brb.in.trn.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IN-TRN-3",
+    "displayName": "Brembo Transit India Line Op 3",
+    "plantCode": "BRB-IN-TRN",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  },
+  {
+    "email": "line.brb.it.berg.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IT-BERG-1",
+    "displayName": "Brembo Bergamo Italy Line Op 1",
+    "plantCode": "BRB-IT-BERG",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.brb.it.berg.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IT-BERG-2",
+    "displayName": "Brembo Bergamo Italy Line Op 2",
+    "plantCode": "BRB-IT-BERG",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.brb.it.berg.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IT-BERG-3",
+    "displayName": "Brembo Bergamo Italy Line Op 3",
+    "plantCode": "BRB-IT-BERG",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  },
+  {
+    "email": "line.brb.it.pont.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IT-PONT-1",
+    "displayName": "Brembo Pontirolo Italy Line Op 1",
+    "plantCode": "BRB-IT-PONT",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.brb.it.pont.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IT-PONT-2",
+    "displayName": "Brembo Pontirolo Italy Line Op 2",
+    "plantCode": "BRB-IT-PONT",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.brb.it.pont.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "BRB-IT-PONT-3",
+    "displayName": "Brembo Pontirolo Italy Line Op 3",
+    "plantCode": "BRB-IT-PONT",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  }
+]

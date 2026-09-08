@@ -1,0 +1,632 @@
+[
+  {
+    "parentProductId": "RHP-FG-ES-DN50",
+    "componentCode": "RHP-SUB-WET50",
+    "componentName": "Wet-end cartridge DN50",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN50",
+    "componentCode": "RHP-SUB-DRV80",
+    "componentName": "Drive pack medium frame",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN50",
+    "componentCode": "RHP-CMP-FAST-M12",
+    "componentName": "Fastener kit M12 stainless",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KIT"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN50",
+    "componentCode": "RHP-CMP-VOL-DN50",
+    "componentName": "Volute housing DN50",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET50",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN50",
+    "componentCode": "RHP-CMP-IMP-DN50",
+    "componentName": "Open impeller DN50 stainless",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET50",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN50",
+    "componentCode": "RHP-CMP-SEAL-SIC",
+    "componentName": "Mechanical seal cartridge SiC 35mm",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET50",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN50",
+    "componentCode": "RHP-CMP-GASK-EPDM",
+    "componentName": "EPDM gasket set",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET50",
+    "qtyUom": "SET"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN50",
+    "componentCode": "RHP-CMP-SHAFT-35",
+    "componentName": "Drive shaft 35mm ground",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN50",
+    "componentCode": "RHP-CMP-MOT-7K5",
+    "componentName": "Motor IE3 7.5kW",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN50",
+    "componentCode": "RHP-CMP-BRG-6307",
+    "componentName": "Bearing set 6307",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "SET"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN50",
+    "componentCode": "RHP-CMP-COUP-35",
+    "componentName": "Coupling set 35mm",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN80",
+    "componentCode": "RHP-SUB-WET80",
+    "componentName": "Wet-end cartridge DN80",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN80",
+    "componentCode": "RHP-SUB-DRV80",
+    "componentName": "Drive pack medium frame",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN80",
+    "componentCode": "RHP-CMP-FAST-M12",
+    "componentName": "Fastener kit M12 stainless",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KIT"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN80",
+    "componentCode": "RHP-CMP-VOL-DN80",
+    "componentName": "Volute housing DN80",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN80",
+    "componentCode": "RHP-CMP-IMP-DN80",
+    "componentName": "Open impeller DN80 stainless",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN80",
+    "componentCode": "RHP-CMP-SEAL-SIC",
+    "componentName": "Mechanical seal cartridge SiC 35mm",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN80",
+    "componentCode": "RHP-CMP-GASK-EPDM",
+    "componentName": "EPDM gasket set",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET80",
+    "qtyUom": "SET"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN80",
+    "componentCode": "RHP-CMP-SHAFT-42",
+    "componentName": "Drive shaft 42mm ground",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN80",
+    "componentCode": "RHP-CMP-MOT-11K",
+    "componentName": "Motor IE3 11kW",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN80",
+    "componentCode": "RHP-CMP-BRG-6309",
+    "componentName": "Bearing set 6309",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "SET"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN80",
+    "componentCode": "RHP-CMP-COUP-42",
+    "componentName": "Coupling set 42mm",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN125",
+    "componentCode": "RHP-SUB-WET125",
+    "componentName": "Wet-end cartridge DN125",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN125",
+    "componentCode": "RHP-SUB-DRV80",
+    "componentName": "Drive pack medium frame",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN125",
+    "componentCode": "RHP-CMP-FAST-M12",
+    "componentName": "Fastener kit M12 stainless",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KIT"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN125",
+    "componentCode": "RHP-CMP-VOL-DN125",
+    "componentName": "Volute housing DN125",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET125",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN125",
+    "componentCode": "RHP-CMP-IMP-DN125",
+    "componentName": "Open impeller DN125 stainless",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET125",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN125",
+    "componentCode": "RHP-CMP-SEAL-SIC",
+    "componentName": "Mechanical seal cartridge SiC 35mm",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET125",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN125",
+    "componentCode": "RHP-CMP-GASK-EPDM",
+    "componentName": "EPDM gasket set",
+    "qtyPerUnit": "2",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET125",
+    "qtyUom": "SET"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN125",
+    "componentCode": "RHP-CMP-SHAFT-42",
+    "componentName": "Drive shaft 42mm ground",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN125",
+    "componentCode": "RHP-CMP-MOT-18K5",
+    "componentName": "Motor IE3 18.5kW",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN125",
+    "componentCode": "RHP-CMP-BRG-6309",
+    "componentName": "Bearing set 6309",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "SET"
+  },
+  {
+    "parentProductId": "RHP-FG-ES-DN125",
+    "componentCode": "RHP-CMP-COUP-42",
+    "componentName": "Coupling set 42mm",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-IL-HVAC80",
+    "componentCode": "RHP-SUB-WET80",
+    "componentName": "Wet-end cartridge DN80",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-IL-HVAC80",
+    "componentCode": "RHP-SUB-DRV80",
+    "componentName": "Drive pack medium frame",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-IL-HVAC80",
+    "componentCode": "RHP-CMP-GASK-EPDM",
+    "componentName": "EPDM gasket set",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "SET"
+  },
+  {
+    "parentProductId": "RHP-FG-IL-HVAC80",
+    "componentCode": "RHP-CMP-VOL-DN80",
+    "componentName": "Volute housing DN80",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-IL-HVAC80",
+    "componentCode": "RHP-CMP-IMP-DN80",
+    "componentName": "Open impeller DN80 stainless",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-IL-HVAC80",
+    "componentCode": "RHP-CMP-SEAL-SIC",
+    "componentName": "Mechanical seal cartridge SiC 35mm",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-IL-HVAC80",
+    "componentCode": "RHP-CMP-MOT-11K",
+    "componentName": "Motor IE3 11kW",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-IL-HVAC80",
+    "componentCode": "RHP-CMP-COUP-42",
+    "componentName": "Coupling set 42mm",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-IL-HVAC125",
+    "componentCode": "RHP-SUB-WET125",
+    "componentName": "Wet-end cartridge DN125",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-IL-HVAC125",
+    "componentCode": "RHP-SUB-DRV80",
+    "componentName": "Drive pack medium frame",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-IL-HVAC125",
+    "componentCode": "RHP-CMP-GASK-EPDM",
+    "componentName": "EPDM gasket set",
+    "qtyPerUnit": "2",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "SET"
+  },
+  {
+    "parentProductId": "RHP-FG-IL-HVAC125",
+    "componentCode": "RHP-CMP-VOL-DN125",
+    "componentName": "Volute housing DN125",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET125",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-IL-HVAC125",
+    "componentCode": "RHP-CMP-IMP-DN125",
+    "componentName": "Open impeller DN125 stainless",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET125",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-IL-HVAC125",
+    "componentCode": "RHP-CMP-SEAL-SIC",
+    "componentName": "Mechanical seal cartridge SiC 35mm",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET125",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-IL-HVAC125",
+    "componentCode": "RHP-CMP-MOT-18K5",
+    "componentName": "Motor IE3 18.5kW",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-IL-HVAC125",
+    "componentCode": "RHP-CMP-COUP-42",
+    "componentName": "Coupling set 42mm",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-CH-DN50",
+    "componentCode": "RHP-SUB-WET50",
+    "componentName": "Wet-end cartridge DN50",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-CH-DN50",
+    "componentCode": "RHP-SUB-DRV80",
+    "componentName": "Drive pack medium frame",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-CH-DN50",
+    "componentCode": "RHP-CMP-SEAL-VTN",
+    "componentName": "Mechanical seal cartridge Viton 35mm",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-CH-DN50",
+    "componentCode": "RHP-CMP-VOL-DN50",
+    "componentName": "Volute housing DN50",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET50",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-CH-DN50",
+    "componentCode": "RHP-CMP-IMP-DN50",
+    "componentName": "Open impeller DN50 stainless",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET50",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-CH-DN50",
+    "componentCode": "RHP-CMP-MOT-11K",
+    "componentName": "Motor IE3 11kW",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-CH-DN80",
+    "componentCode": "RHP-SUB-WET80",
+    "componentName": "Wet-end cartridge DN80",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-CH-DN80",
+    "componentCode": "RHP-SUB-DRV80",
+    "componentName": "Drive pack medium frame",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-CH-DN80",
+    "componentCode": "RHP-CMP-SEAL-VTN",
+    "componentName": "Mechanical seal cartridge Viton 35mm",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-CH-DN80",
+    "componentCode": "RHP-CMP-VOL-DN80",
+    "componentName": "Volute housing DN80",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-CH-DN80",
+    "componentCode": "RHP-CMP-IMP-DN80",
+    "componentName": "Open impeller DN80 stainless",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-WET80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-CH-DN80",
+    "componentCode": "RHP-CMP-MOT-18K5",
+    "componentName": "Motor IE3 18.5kW",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "RHP-SUB-DRV80",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-BST-DN80",
+    "componentCode": "RHP-FG-ES-DN80",
+    "componentName": "End-suction pump DN80",
+    "qtyPerUnit": "2",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-BST-DN80",
+    "componentCode": "RHP-CMP-FAST-M12",
+    "componentName": "Fastener kit M12 stainless",
+    "qtyPerUnit": "2",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KIT"
+  },
+  {
+    "parentProductId": "RHP-FG-BST-DN80",
+    "componentCode": "RHP-CMP-GASK-EPDM",
+    "componentName": "EPDM gasket set",
+    "qtyPerUnit": "2",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "SET"
+  },
+  {
+    "parentProductId": "RHP-FG-KIT-SEAL80",
+    "componentCode": "RHP-CMP-SEAL-SIC",
+    "componentName": "Mechanical seal cartridge SiC 35mm",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-KIT-SEAL80",
+    "componentCode": "RHP-CMP-GASK-EPDM",
+    "componentName": "EPDM gasket set",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "SET"
+  },
+  {
+    "parentProductId": "RHP-FG-KIT-WET80",
+    "componentCode": "RHP-CMP-VOL-DN80",
+    "componentName": "Volute housing DN80",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-KIT-WET80",
+    "componentCode": "RHP-CMP-IMP-DN80",
+    "componentName": "Open impeller DN80 stainless",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-KIT-WET80",
+    "componentCode": "RHP-CMP-SEAL-SIC",
+    "componentName": "Mechanical seal cartridge SiC 35mm",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "RHP-FG-KIT-WET80",
+    "componentCode": "RHP-CMP-GASK-EPDM",
+    "componentName": "EPDM gasket set",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "SET"
+  }
+]

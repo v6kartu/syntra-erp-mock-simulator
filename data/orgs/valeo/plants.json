@@ -1,0 +1,32 @@
+[
+  {
+    "code": "VAL-CN-SHA",
+    "name": "Valeo Shanghai",
+    "status": "ACTIVE",
+    "ianaTimezone": "Asia/Shanghai"
+  },
+  {
+    "code": "VAL-EU-CDG",
+    "name": "Valeo CDG (Paris hub)",
+    "status": "ACTIVE",
+    "ianaTimezone": "Europe/Paris"
+  },
+  {
+    "code": "VAL-EU-STR",
+    "name": "Valeo Strasbourg",
+    "status": "ACTIVE",
+    "ianaTimezone": "Europe/Paris"
+  },
+  {
+    "code": "VAL-JP-YOK",
+    "name": "Valeo Yokohama",
+    "status": "ACTIVE",
+    "ianaTimezone": "Asia/Tokyo"
+  },
+  {
+    "code": "VAL-NA-DET",
+    "name": "Valeo Detroit",
+    "status": "ACTIVE",
+    "ianaTimezone": "America/Chicago"
+  }
+]

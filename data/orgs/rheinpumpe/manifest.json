@@ -1,0 +1,64 @@
+{
+  "orgId": "rheinpumpe",
+  "displayName": "RheinPumpe GmbH (European Industrial Pumps UAT)",
+  "defaultCurrency": "EUR",
+  "plants": [
+    {
+      "code": "RHP-DE-DUI",
+      "name": "RheinPumpe Duisburg Assembly",
+      "ianaTimezone": "Europe/Berlin"
+    },
+    {
+      "code": "RHP-CZ-BRN",
+      "name": "RheinPumpe Brno Machining",
+      "ianaTimezone": "Europe/Prague"
+    },
+    {
+      "code": "RHP-ES-BCN",
+      "name": "RheinPumpe Barcelona Assembly",
+      "ianaTimezone": "Europe/Madrid"
+    },
+    {
+      "code": "RHP-FR-LYN",
+      "name": "RheinPumpe Lyon Service Hub",
+      "ianaTimezone": "Europe/Paris"
+    }
+  ],
+  "modules": [
+    "customers",
+    "products",
+    "plants",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "importOrder": [
+    "plants",
+    "customers",
+    "products",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "productSkuPrefixes": [
+    "RHP-"
+  ],
+  "shortageSkus": [
+    "RHP-CMP-SEAL-SIC",
+    "RHP-CMP-VOL-DN80",
+    "RHP-FG-ES-DN80"
+  ],
+  "surgeSkus": [
+    "RHP-FG-KIT-SEAL80",
+    "RHP-CMP-GASK-EPDM"
+  ],
+  "connectorUrlsHint": {
+    "customers": "http://erp-import-simulator:9090/feed/rheinpumpe/customers.json",
+    "products": "http://erp-import-simulator:9090/feed/rheinpumpe/products.json",
+    "inventory": "http://erp-import-simulator:9090/feed/rheinpumpe/inventory.json",
+    "inventoryPlant": "http://erp-import-simulator:9090/feed/rheinpumpe/inventory.json?plant=RHP-DE-DUI",
+    "bom": "http://erp-import-simulator:9090/feed/rheinpumpe/bom.json",
+    "plants": "http://erp-import-simulator:9090/feed/rheinpumpe/plants.json",
+    "workforce": "http://erp-import-simulator:9090/feed/rheinpumpe/workforce.json"
+  }
+}

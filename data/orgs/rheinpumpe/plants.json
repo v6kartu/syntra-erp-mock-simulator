@@ -1,0 +1,26 @@
+[
+  {
+    "code": "RHP-DE-DUI",
+    "name": "RheinPumpe Duisburg Assembly",
+    "status": "ACTIVE",
+    "ianaTimezone": "Europe/Berlin"
+  },
+  {
+    "code": "RHP-CZ-BRN",
+    "name": "RheinPumpe Brno Machining",
+    "status": "ACTIVE",
+    "ianaTimezone": "Europe/Prague"
+  },
+  {
+    "code": "RHP-ES-BCN",
+    "name": "RheinPumpe Barcelona Assembly",
+    "status": "ACTIVE",
+    "ianaTimezone": "Europe/Madrid"
+  },
+  {
+    "code": "RHP-FR-LYN",
+    "name": "RheinPumpe Lyon Service Hub",
+    "status": "ACTIVE",
+    "ianaTimezone": "Europe/Paris"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "scenario": "shortage",
+  "skuHints": [
+    "RHP-CMP-SEAL-SIC",
+    "RHP-CMP-VOL-DN80",
+    "RHP-FG-ES-DN80"
+  ]
+}

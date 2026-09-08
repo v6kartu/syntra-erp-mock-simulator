@@ -1,0 +1,26 @@
+[
+  {
+    "code": "MBG-DE-SIN",
+    "name": "Mercedes Sindelfingen DE",
+    "status": "ACTIVE",
+    "ianaTimezone": "Europe/Berlin"
+  },
+  {
+    "code": "MBG-DE-BRE",
+    "name": "Mercedes Bremen DE",
+    "status": "ACTIVE",
+    "ianaTimezone": "Europe/Berlin"
+  },
+  {
+    "code": "MBG-US-TUS",
+    "name": "Mercedes Tuscaloosa US",
+    "status": "ACTIVE",
+    "ianaTimezone": "America/Chicago"
+  },
+  {
+    "code": "MBG-CN-BEI",
+    "name": "Mercedes Beijing CN",
+    "status": "ACTIVE",
+    "ianaTimezone": "Asia/Shanghai"
+  }
+]

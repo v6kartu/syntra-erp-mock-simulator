@@ -1,0 +1,140 @@
+[
+  {
+    "email": "operator.1@uat.example.com",
+    "firstName": "Operator",
+    "lastName": "01",
+    "displayName": "Operator 01 — Mercedes-Benz Sindelfingen Plant",
+    "plantCode": "MBG-DE-BRE",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR",
+    "apmId": "MBGSIN01"
+  },
+  {
+    "email": "operator.2@uat.example.com",
+    "firstName": "Operator",
+    "lastName": "02",
+    "displayName": "Operator 02 — Mercedes-Benz Tuscaloosa Plant",
+    "plantCode": "MBG-US-TUS",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR",
+    "apmId": "MBGTUS01"
+  },
+  {
+    "email": "operator.3@uat.example.com",
+    "firstName": "Operator",
+    "lastName": "03",
+    "displayName": "Operator 03 — Mercedes-Benz Beijing BBAC",
+    "plantCode": "MBG-CN-BEI",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR",
+    "apmId": "MBGBEI01"
+  },
+  {
+    "email": "line.mbg.de.sin.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "MBG-DE-SIN-1",
+    "displayName": "Mercedes Sindelfingen DE Line Op 1",
+    "plantCode": "MBG-DE-SIN",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.mbg.de.sin.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "MBG-DE-SIN-2",
+    "displayName": "Mercedes Sindelfingen DE Line Op 2",
+    "plantCode": "MBG-DE-SIN",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.mbg.de.sin.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "MBG-DE-SIN-3",
+    "displayName": "Mercedes Sindelfingen DE Line Op 3",
+    "plantCode": "MBG-DE-SIN",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  },
+  {
+    "email": "line.mbg.de.bre.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "MBG-DE-BRE-1",
+    "displayName": "Mercedes Bremen DE Line Op 1",
+    "plantCode": "MBG-DE-BRE",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.mbg.de.bre.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "MBG-DE-BRE-2",
+    "displayName": "Mercedes Bremen DE Line Op 2",
+    "plantCode": "MBG-DE-BRE",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.mbg.de.bre.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "MBG-DE-BRE-3",
+    "displayName": "Mercedes Bremen DE Line Op 3",
+    "plantCode": "MBG-DE-BRE",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  },
+  {
+    "email": "line.mbg.us.tus.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "MBG-US-TUS-1",
+    "displayName": "Mercedes Tuscaloosa US Line Op 1",
+    "plantCode": "MBG-US-TUS",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.mbg.us.tus.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "MBG-US-TUS-2",
+    "displayName": "Mercedes Tuscaloosa US Line Op 2",
+    "plantCode": "MBG-US-TUS",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.mbg.us.tus.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "MBG-US-TUS-3",
+    "displayName": "Mercedes Tuscaloosa US Line Op 3",
+    "plantCode": "MBG-US-TUS",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  },
+  {
+    "email": "line.mbg.cn.bei.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "MBG-CN-BEI-1",
+    "displayName": "Mercedes Beijing CN Line Op 1",
+    "plantCode": "MBG-CN-BEI",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.mbg.cn.bei.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "MBG-CN-BEI-2",
+    "displayName": "Mercedes Beijing CN Line Op 2",
+    "plantCode": "MBG-CN-BEI",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.mbg.cn.bei.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "MBG-CN-BEI-3",
+    "displayName": "Mercedes Beijing CN Line Op 3",
+    "plantCode": "MBG-CN-BEI",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  }
+]

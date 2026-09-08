@@ -1,0 +1,26 @@
+{
+  "readers": [
+    {
+      "id": "reader-line-a",
+      "name": "Badge reader — Line A",
+      "deviceId": "sim-reader-01"
+    },
+    {
+      "id": "reader-line-b",
+      "name": "Badge reader — Line B",
+      "deviceId": "sim-reader-02"
+    }
+  ],
+  "plcs": [
+    {
+      "id": "plc-line-a",
+      "name": "PLC — Line A",
+      "deviceId": "sim-plc-01"
+    },
+    {
+      "id": "plc-line-b",
+      "name": "PLC — Line B",
+      "deviceId": "sim-plc-02"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "parentProductId": "MBG-FG-EQE-FBBW",
+    "componentCode": "MBG-SUB-DUALPIST",
+    "componentName": "Phantom dual-piston module",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "MBG-FG-EQE-FBBW",
+    "componentCode": "MBG-CMP-BBW-ACT",
+    "componentName": "Brake-by-wire actuator module",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "MBG-FG-EQE-FBBW",
+    "componentCode": "MBG-CMP-SEAL-KIT",
+    "componentName": "Seal & sensor kit",
+    "qtyPerUnit": "2",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "MBG-FG-EQE-FBBW",
+    "componentCode": "MBG-CMP-HYD-ESP",
+    "componentName": "Hydraulic block — ESP",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "MBG-SUB-DUALPIST"
+  },
+  {
+    "parentProductId": "MBG-FG-EQE-FBBW",
+    "componentCode": "MBG-CMP-CAL-AMG",
+    "componentName": "AMG performance caliper body",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "MBG-SUB-DUALPIST"
+  },
+  {
+    "parentProductId": "MBG-FG-AMG-CAL",
+    "componentCode": "MBG-CMP-CAL-AMG",
+    "componentName": "AMG performance caliper body",
+    "qtyPerUnit": "4",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "MBG-FG-AMG-CAL",
+    "componentCode": "MBG-CMP-ROT-CC",
+    "componentName": "Carbon ceramic rotor blank",
+    "qtyPerUnit": "4",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "MBG-FG-AMG-CAL",
+    "componentCode": "MBG-CMP-SEAL-KIT",
+    "componentName": "Seal & sensor kit",
+    "qtyPerUnit": "4",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "MBG-FG-GLS-RR",
+    "componentCode": "MBG-CMP-HYD-ESP",
+    "componentName": "Hydraulic block — ESP",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "MBG-FG-GLS-RR",
+    "componentCode": "MBG-CMP-SEAL-KIT",
+    "componentName": "Seal & sensor kit",
+    "qtyPerUnit": "2",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "MBG-FG-GLS-RR",
+    "componentCode": "MBG-CMP-CAL-AMG",
+    "componentName": "AMG performance caliper body",
+    "qtyPerUnit": "2",
+    "level": "0",
+    "parentComponentCode": ""
+  }
+]

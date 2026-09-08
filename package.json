@@ -1,0 +1,19 @@
+{
+  "name": "syntra-erp-mock-simulator",
+  "private": true,
+  "version": "1.1.0",
+  "description": "Public SyntraOS demo simulator: ERP pull feeds, live catalog/inventory, Machine IoT HMAC feeders",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "org-tick": "node scripts/org-tick.mjs",
+    "org-push": "node scripts/org-push.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

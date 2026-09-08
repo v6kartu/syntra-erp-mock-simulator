@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Syntra demo simulator</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --panel: #1a222c;
+      --border: #2a3544;
+      --text: #e7eef7;
+      --muted: #8b9bb0;
+      --accent: #3b82f6;
+      --ok: #22c55e;
+      --warn: #f59e0b;
+      --danger: #ef4444;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #1e3a5f 0%, transparent 50%), var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    header {
+      padding: 1.1rem 1.5rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    header h1 { margin: 0; font-size: 1.15rem; letter-spacing: -0.02em; }
+    header p { margin: 0; color: var(--muted); font-size: 0.85rem; }
+    main {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 1rem;
+      padding: 1rem 1.5rem 2rem;
+      max-width: 1400px;
+    }
+    @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem;
+    }
+    .card h2 {
+      margin: 0 0 0.75rem;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+    }
+    .org-btn, .plant-btn, button.action, .tab {
+      display: block;
+      width: 100%;
+      text-align: left;
+      margin: 0.35rem 0;
+      padding: 0.6rem 0.75rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: #121820;
+      color: var(--text);
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+    .org-btn.active, .plant-btn.active, .tab.active {
+      border-color: var(--accent);
+      background: rgba(59, 130, 246, 0.15);
+    }
+    .org-btn small { display: block; color: var(--muted); font-size: 0.75rem; margin-top: 0.2rem; }
+    .tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.75rem; }
+    .tab { width: auto; margin: 0; font-weight: 600; }
+    .grid-stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+      gap: 0.5rem;
+      margin: 0.75rem 0 1rem;
+    }
+    .stat {
+      background: #121820;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.6rem;
+    }
+    .stat .n { font-size: 1.25rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .stat .l { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; }
+    .row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.5rem 0; }
+    button.action {
+      width: auto;
+      background: var(--accent);
+      border-color: transparent;
+      font-weight: 600;
+    }
+    button.action.secondary { background: #243044; }
+    button.action.warn { background: #92400e; }
+    button.action.danger { background: #7f1d1d; }
+    button.action.ok { background: #14532d; }
+    label { display: block; font-size: 0.75rem; color: var(--muted); margin: 0.45rem 0 0.2rem; }
+    input, textarea, select {
+      width: 100%;
+      background: #0b0f14;
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 8px;
+      padding: 0.5rem 0.6rem;
+      font: inherit;
+    }
+    textarea { min-height: 72px; font-family: ui-monospace, Menlo, monospace; font-size: 0.75rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+    th, td { border-bottom: 1px solid var(--border); padding: 0.4rem 0.35rem; text-align: left; }
+    th { color: var(--muted); font-size: 0.7rem; text-transform: uppercase; }
+    td input { width: 5.5rem; padding: 0.3rem; }
+    code, .url {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.72rem;
+      background: #0b0f14;
+      padding: 0.35rem 0.5rem;
+      border-radius: 6px;
+      display: block;
+      margin: 0.25rem 0;
+      word-break: break-all;
+      border: 1px solid var(--border);
+    }
+    #log {
+      max-height: 220px;
+      overflow: auto;
+      font-family: ui-monospace, Menlo, monospace;
+      font-size: 0.72rem;
+      color: var(--muted);
+      white-space: pre-wrap;
+    }
+    .ok { color: var(--ok); }
+    .err { color: #f87171; }
+    .muted { color: var(--muted); font-size: 0.8rem; }
+    .hidden { display: none !important; }
+    .hint { color: var(--muted); font-size: 0.8rem; margin: 0.4rem 0 0.8rem; }
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem 1rem; }
+    @media (max-width: 700px) { .form-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Syntra demo simulator</h1>
+      <p>ERP pull feeds · live catalog / inventory · Machine IoT push into Syntra</p>
+    </div>
+    <p id="status">Loading…</p>
+  </header>
+  <main>
+    <aside class="card">
+      <h2>Organizations</h2>
+      <div id="orgList"></div>
+      <h2 style="margin-top:1rem">Plant filter</h2>
+      <button class="plant-btn active" data-plant="" type="button">All plants</button>
+      <div id="plantList"></div>
+    </aside>
+    <section>
+      <div class="tabs">
+        <button class="tab active" data-tab="demo" type="button">Demo scenes</button>
+        <button class="tab" data-tab="catalog" type="button">Product catalog</button>
+        <button class="tab" data-tab="inventory" type="button">Inventory</button>
+        <button class="tab" data-tab="iot" type="button">Machine / IoT</button>
+        <button class="tab" data-tab="urls" type="button">Connector URLs</button>
+      </div>
+
+      <div class="card" id="panel-demo">
+        <h2>Selected pack</h2>
+        <div id="title">—</div>
+        <div class="grid-stats" id="stats"></div>
+        <p class="hint">Click a scene during the demo, then <strong>Run now</strong> on the matching Syntra connector (inventory and/or products).</p>
+        <div class="row">
+          <button class="action warn" type="button" data-erp="shortage">Shortage</button>
+          <button class="action danger" type="button" data-erp="stockout">Stockout (qty 0)</button>
+          <button class="action secondary" type="button" data-erp="surge">Demand surge</button>
+          <button class="action ok" type="button" data-erp="receipt">Goods receipt</button>
+          <button class="action secondary" type="button" data-erp="balanced">Balanced noise</button>
+          <button class="action" type="button" data-erp="new-product">Add demo SKU</button>
+          <button class="action secondary" type="button" data-erp="price-drop">Price drop 15%</button>
+          <button class="action secondary" type="button" data-erp="reset">Reset pack</button>
+        </div>
+        <div class="row">
+          <button class="action warn" type="button" id="btnCombo">Combo: shortage + line PROBLEM</button>
+          <button class="action secondary" type="button" id="btnReload">Reload from disk</button>
+        </div>
+      </div>
+
+      <div class="card hidden" id="panel-catalog">
+        <h2>Product catalog</h2>
+        <p class="hint">Edit list price or catalog stock, or add a SKU. Re-run the <strong>PRODUCTS</strong> connector in Syntra to ingest.</p>
+        <div class="form-grid">
+          <div>
+            <label>New SKU name</label>
+            <input id="newName" placeholder="Front caliper — demo limited" />
+          </div>
+          <div>
+            <label>SKU (optional)</label>
+            <input id="newSku" placeholder="auto if blank" />
+          </div>
+          <div>
+            <label>List price</label>
+            <input id="newPrice" value="129" />
+          </div>
+          <div>
+            <label>Seed inventory qty</label>
+            <input id="newQty" value="180" />
+          </div>
+        </div>
+        <div class="row">
+          <button class="action" type="button" id="btnAddProduct">Add product + inventory</button>
+        </div>
+        <div id="catalogTable"></div>
+      </div>
+
+      <div class="card hidden" id="panel-inventory">
+        <h2>Inventory quantities</h2>
+        <p class="hint">Change on-hand qty, then re-run the <strong>INVENTORY</strong> connector. Filter by plant in the left column.</p>
+        <label>Search SKU</label>
+        <input id="invSearch" placeholder="BRB-FG…" />
+        <div id="invTable"></div>
+      </div>
+
+      <div class="card hidden" id="panel-iot">
+        <h2>Syntra IoT feeder</h2>
+        <p class="hint">HMAC-signed POSTs to sandbox/local Syntra. Secrets stay in this browser + simulator memory (not git). Use a <code>SHOPFLOOR</code> key for badges and a <code>PRODUCTION_IOT</code> key for PLCs.</p>
+        <div class="form-grid">
+          <div>
+            <label>Syntra API base URL</label>
+            <input id="iotApi" placeholder="https://api.syntrasystems.cloud" />
+          </div>
+          <div>
+            <label>Tenant UUID</label>
+            <input id="iotTenant" />
+          </div>
+          <div>
+            <label>SHOPFLOOR key id</label>
+            <input id="iotShopKey" />
+          </div>
+          <div>
+            <label>SHOPFLOOR secret</label>
+            <input id="iotShopSecret" type="password" autocomplete="off" />
+          </div>
+          <div>
+            <label>PRODUCTION_IOT key id</label>
+            <input id="iotIotKey" />
+          </div>
+          <div>
+            <label>PRODUCTION_IOT secret</label>
+            <input id="iotIotSecret" type="password" autocomplete="off" />
+          </div>
+          <div>
+            <label>Line department UUID</label>
+            <input id="iotLine" />
+          </div>
+          <div>
+            <label>Badge token (registered in Syntra)</label>
+            <input id="iotBadge" placeholder="BADGE-001" />
+          </div>
+        </div>
+        <div class="row">
+          <button class="action" type="button" id="btnSaveIot">Save feeder config</button>
+        </div>
+        <h2>Badge reader</h2>
+        <div class="row">
+          <button class="action ok" type="button" data-iot="shift-start">Clock IN</button>
+          <button class="action secondary" type="button" data-iot="break-start">Break start</button>
+          <button class="action secondary" type="button" data-iot="break-end">Break end</button>
+          <button class="action warn" type="button" data-iot="shift-end">Clock OUT</button>
+        </div>
+        <h2>Machine / PLC</h2>
+        <div class="row">
+          <button class="action ok" type="button" data-iot="line-active">ACTIVE</button>
+          <button class="action danger" type="button" data-iot="line-problem">PROBLEM</button>
+          <button class="action warn" type="button" data-iot="line-maintenance">MAINTENANCE</button>
+          <button class="action secondary" type="button" data-iot="line-idle">IDLE</button>
+        </div>
+        <p class="muted" id="iotStatus">Not configured</p>
+      </div>
+
+      <div class="card hidden" id="panel-urls">
+        <h2>Connector pull URLs</h2>
+        <p class="hint">Paste into Syntra ERP connectors. Import order: plants → customers → products → workforce → inventory → bom.</p>
+        <div class="row">
+          <button class="action secondary" type="button" id="btnCopy">Copy URLs</button>
+        </div>
+        <div id="urls"></div>
+      </div>
+
+      <div class="card" style="margin-top:1rem">
+        <h2>Event log</h2>
+        <div id="log"></div>
+      </div>
+    </section>
+  </main>
+  <script>
+    const state = { orgs: [], orgId: null, plant: '', tab: 'demo', products: [], inventory: [] };
+
+    function log(msg, cls) {
+      const el = document.getElementById('log');
+      const line = document.createElement('div');
+      if (cls) line.className = cls;
+      line.textContent = `[${new Date().toLocaleTimeString()}] ${msg}`;
+      el.prepend(line);
+    }
+
+    async function api(path, opts) {
+      const res = await fetch(path, opts);
+      const text = await res.text();
+      let body;
+      try { body = JSON.parse(text); } catch { body = text; }
+      if (!res.ok) throw new Error(typeof body === 'string' ? body : (body.error || JSON.stringify(body)));
+      return body;
+    }
+
+    function current() {
+      return state.orgs.find((o) => o.orgId === state.orgId);
+    }
+
+    function renderOrgs() {
+      const list = document.getElementById('orgList');
+      list.innerHTML = '';
+      for (const o of state.orgs) {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'org-btn' + (o.orgId === state.orgId ? ' active' : '');
+        btn.innerHTML = `<strong>${o.displayName || o.orgId}</strong><small>${o.orgId} · ${(o.plants || []).length} plants</small>`;
+        btn.onclick = () => selectOrg(o.orgId);
+        list.appendChild(btn);
+      }
+    }
+
+    function renderDetail() {
+      const o = current();
+      if (!o) return;
+      document.getElementById('title').textContent = `${o.displayName} (${o.orgId})`;
+      const stats = document.getElementById('stats');
+      stats.innerHTML = '';
+      for (const [m, n] of Object.entries(o.modules || {})) {
+        const d = document.createElement('div');
+        d.className = 'stat';
+        d.innerHTML = `<div class="n">${n}</div><div class="l">${m}</div>`;
+        stats.appendChild(d);
+      }
+      const plantList = document.getElementById('plantList');
+      plantList.innerHTML = '';
+      for (const p of o.plants || []) {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'plant-btn' + (state.plant === p.code ? ' active' : '');
+        btn.dataset.plant = p.code;
+        btn.textContent = `${p.code} — ${p.name || ''}`;
+        btn.onclick = () => {
+          state.plant = p.code;
+          document.querySelectorAll('.plant-btn').forEach((b) => b.classList.toggle('active', b.dataset.plant === state.plant));
+          renderUrls();
+          loadInventory();
+        };
+        plantList.appendChild(btn);
+      }
+      renderUrls();
+    }
+
+    function renderUrls() {
+      const o = current();
+      const box = document.getElementById('urls');
+      if (!o) { box.textContent = ''; return; }
+      const host = location.origin;
+      const plantQ = state.plant ? `?plant=${encodeURIComponent(state.plant)}` : '';
+      const mods = o.importOrder || Object.keys(o.modules || {});
+      box.innerHTML = mods.map((m) => {
+        const q = (m === 'inventory' || m === 'workforce' || m === 'plants') ? plantQ : '';
+        return `<div class="url">${host}/feed/${o.orgId}/${m}.json${q}</div>`;
+      }).join('');
+    }
+
+    function showTab(tab) {
+      state.tab = tab;
+      document.querySelectorAll('.tab').forEach((b) => b.classList.toggle('active', b.dataset.tab === tab));
+      for (const id of ['demo', 'catalog', 'inventory', 'iot', 'urls']) {
+        document.getElementById('panel-' + id).classList.toggle('hidden', id !== tab);
+      }
+      if (tab === 'catalog') loadCatalog();
+      if (tab === 'inventory') loadInventory();
+    }
+
+    async function selectOrg(id) {
+      state.orgId = id;
+      state.plant = '';
+      renderOrgs();
+      renderDetail();
+      if (state.tab === 'catalog') loadCatalog();
+      if (state.tab === 'inventory') loadInventory();
+    }
+
+    async function refresh() {
+      const data = await api('/orgs');
+      state.orgs = data.orgs || [];
+      if (!state.orgId && state.orgs[0]) state.orgId = state.orgs[0].orgId;
+      if (state.orgId) {
+        const s = await api(`/orgs/${state.orgId}`);
+        const idx = state.orgs.findIndex((o) => o.orgId === state.orgId);
+        if (idx >= 0) state.orgs[idx] = s;
+      }
+      document.getElementById('status').textContent = `${state.orgs.length} org pack(s)`;
+      renderOrgs();
+      renderDetail();
+    }
+
+    async function erpScenario(scenario) {
+      if (!state.orgId) return;
+      const body = { scenario };
+      if (state.plant) body.plant = state.plant;
+      const r = await api(`/simulator/orgs/${state.orgId}/scenario`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+      });
+      log(`${scenario} → ${r.hint || r.product?.sku || r.changed || r.rows || 'ok'}`, 'ok');
+      await refresh();
+      if (state.tab === 'catalog') loadCatalog();
+      if (state.tab === 'inventory') loadInventory();
+    }
+
+    async function loadCatalog() {
+      if (!state.orgId) return;
+      state.products = await api(`/feed/${state.orgId}/products.json`);
+      const box = document.getElementById('catalogTable');
+      const rows = state.products.slice(0, 80).map((p) => `
+        <tr>
+          <td><code>${p.sku}</code></td>
+          <td>${p.name || ''}</td>
+          <td><input data-sku="${p.sku}" data-field="listPrice" value="${p.listPrice ?? ''}" /></td>
+          <td><input data-sku="${p.sku}" data-field="stock" value="${p.stock ?? ''}" /></td>
+          <td><button class="action secondary" type="button" data-save="${p.sku}">Save</button></td>
+        </tr>`).join('');
+      box.innerHTML = `<table><thead><tr><th>SKU</th><th>Name</th><th>List price</th><th>Catalog stock</th><th></th></tr></thead><tbody>${rows}</tbody></table>
+        <p class="muted">${state.products.length} products (showing ${Math.min(80, state.products.length)})</p>`;
+      box.querySelectorAll('button[data-save]').forEach((btn) => {
+        btn.onclick = async () => {
+          const sku = btn.dataset.save;
+          const listPrice = box.querySelector(`input[data-sku="${sku}"][data-field="listPrice"]`).value;
+          const stock = box.querySelector(`input[data-sku="${sku}"][data-field="stock"]`).value;
+          await api(`/simulator/orgs/${state.orgId}/products/${encodeURIComponent(sku)}`, {
+            method: 'PATCH',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ listPrice, stock }),
+          });
+          log(`updated ${sku}`, 'ok');
+        };
+      });
+    }
+
+    async function loadInventory() {
+      if (!state.orgId) return;
+      const q = state.plant ? `?plant=${encodeURIComponent(state.plant)}` : '';
+      state.inventory = await api(`/feed/${state.orgId}/inventory.json${q}`);
+      renderInv();
+    }
+
+    function renderInv() {
+      const q = (document.getElementById('invSearch').value || '').toLowerCase();
+      const filtered = state.inventory.filter((r) => !q || String(r.sku || '').toLowerCase().includes(q) || String(r.itemName || '').toLowerCase().includes(q));
+      const slice = filtered.slice(0, 60);
+      const box = document.getElementById('invTable');
+      box.innerHTML = `<table><thead><tr><th>SKU</th><th>Plant</th><th>SLoc</th><th>Qty</th><th></th></tr></thead><tbody>${slice.map((r, i) => `
+        <tr>
+          <td><code>${r.sku}</code></td>
+          <td>${r.plant || ''}</td>
+          <td>${r.storageLocation || ''}</td>
+          <td><input id="qty-${i}" value="${r.availableQuantity ?? r.quantityOnHand ?? ''}" /></td>
+          <td><button class="action secondary" type="button" data-i="${i}">Set</button></td>
+        </tr>`).join('')}</tbody></table>
+        <p class="muted">${filtered.length} rows (showing ${slice.length})</p>`;
+      box.querySelectorAll('button[data-i]').forEach((btn) => {
+        btn.onclick = async () => {
+          const r = slice[Number(btn.dataset.i)];
+          const quantity = document.getElementById(`qty-${btn.dataset.i}`).value;
+          await api(`/simulator/orgs/${state.orgId}/inventory`, {
+            method: 'PATCH',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              sku: r.sku,
+              plant: r.plant,
+              storageLocation: r.storageLocation,
+              quantity,
+            }),
+          });
+          log(`qty ${r.sku} @ ${r.plant || '*'} → ${quantity}`, 'ok');
+        };
+      });
+    }
+
+    function iotBody() {
+      const line = document.getElementById('iotLine').value.trim();
+      const badge = document.getElementById('iotBadge').value.trim() || 'BADGE-001';
+      return {
+        apiUrl: document.getElementById('iotApi').value.trim(),
+        tenant: document.getElementById('iotTenant').value.trim(),
+        shopKey: document.getElementById('iotShopKey').value.trim(),
+        shopSecret: document.getElementById('iotShopSecret').value.trim(),
+        iotKey: document.getElementById('iotIotKey').value.trim(),
+        iotSecret: document.getElementById('iotIotSecret').value.trim(),
+        lines: line ? [{ id: 'line-a', name: 'Line A', departmentId: line, readerDeviceId: 'sim-reader-01', plcDeviceId: 'sim-plc-01' }] : [],
+        badges: line ? [{ label: 'Operator 1', token: badge, departmentId: line, deviceId: 'sim-reader-01' }] : [],
+      };
+    }
+
+    function persistIotLocal() {
+      const snap = iotBody();
+      localStorage.setItem('syntra-sim-iot', JSON.stringify({ ...snap, shopSecret: '', iotSecret: '' }));
+    }
+
+    async function saveIot() {
+      const body = iotBody();
+      persistIotLocal();
+      const r = await api('/iot/config', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+      });
+      document.getElementById('iotStatus').textContent = r.config?.ready
+        ? `Ready → ${r.config.apiUrl} / tenant ${r.config.tenant}`
+        : 'Saved. Add API URL + tenant + keys to push into Syntra.';
+      log('IoT config saved', 'ok');
+    }
+
+    async function iotScenario(scenario) {
+      persistIotLocal();
+      await saveIot().catch(() => {});
+      const r = await api('/iot/scenario', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ scenario }),
+      });
+      const fwd = r.forwarded ? 'pushed to Syntra' : 'local only';
+      log(`${scenario} (${fwd}) HTTP ${r.syntra?.status || r.status || ''} ${r.hint || ''}`, r.ok === false ? 'err' : 'ok');
+    }
+
+    document.querySelectorAll('.tab').forEach((b) => {
+      b.onclick = () => showTab(b.dataset.tab);
+    });
+    document.querySelectorAll('[data-erp]').forEach((b) => {
+      b.onclick = () => erpScenario(b.dataset.erp).catch((e) => log(String(e.message || e), 'err'));
+    });
+    document.querySelectorAll('[data-iot]').forEach((b) => {
+      b.onclick = () => iotScenario(b.dataset.iot).catch((e) => log(String(e.message || e), 'err'));
+    });
+    document.getElementById('btnCombo').onclick = async () => {
+      try {
+        await erpScenario('shortage');
+        await iotScenario('line-problem');
+      } catch (e) { log(String(e.message || e), 'err'); }
+    };
+    document.getElementById('btnReload').onclick = async () => {
+      try {
+        await api(`/simulator/orgs/${state.orgId}/reload`, { method: 'POST' });
+        log(`reloaded ${state.orgId}`, 'ok');
+        await refresh();
+      } catch (e) { log(String(e.message || e), 'err'); }
+    };
+    document.getElementById('btnAddProduct').onclick = async () => {
+      try {
+        const r = await api(`/simulator/orgs/${state.orgId}/products`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            name: document.getElementById('newName').value,
+            sku: document.getElementById('newSku').value || undefined,
+            listPrice: document.getElementById('newPrice').value,
+            seedInventory: true,
+            seedInventoryQty: document.getElementById('newQty').value,
+          }),
+        });
+        log(`added ${r.product?.sku}`, 'ok');
+        await refresh();
+        await loadCatalog();
+      } catch (e) { log(String(e.message || e), 'err'); }
+    };
+    document.getElementById('invSearch').oninput = () => renderInv();
+    document.getElementById('btnSaveIot').onclick = () => saveIot().catch((e) => log(String(e.message || e), 'err'));
+    document.getElementById('btnCopy').onclick = async () => {
+      const urls = [...document.querySelectorAll('#urls .url')].map((el) => el.textContent).join('\n');
+      await navigator.clipboard.writeText(urls);
+      log('connector URLs copied', 'ok');
+    };
+    document.querySelector('.plant-btn[data-plant=""]').onclick = () => {
+      state.plant = '';
+      document.querySelectorAll('.plant-btn').forEach((b) => b.classList.toggle('active', b.dataset.plant === ''));
+      renderUrls();
+      if (state.tab === 'inventory') loadInventory();
+    };
+
+    try {
+      const saved = JSON.parse(localStorage.getItem('syntra-sim-iot') || '{}');
+      if (saved.apiUrl) document.getElementById('iotApi').value = saved.apiUrl;
+      if (saved.tenant) document.getElementById('iotTenant').value = saved.tenant;
+      if (saved.shopKey) document.getElementById('iotShopKey').value = saved.shopKey;
+      if (saved.iotKey) document.getElementById('iotIotKey').value = saved.iotKey;
+      if (saved.lines?.[0]?.departmentId) document.getElementById('iotLine').value = saved.lines[0].departmentId;
+      if (saved.badges?.[0]?.token) document.getElementById('iotBadge').value = saved.badges[0].token;
+    } catch { /* ignore */ }
+
+    refresh().catch((e) => {
+      document.getElementById('status').textContent = 'Failed to load /orgs';
+      log(String(e.message || e), 'err');
+    });
+    api('/iot/config').then((c) => {
+      if (c.apiUrl && !document.getElementById('iotApi').value) document.getElementById('iotApi').value = c.apiUrl;
+      if (c.tenant && !document.getElementById('iotTenant').value) document.getElementById('iotTenant').value = c.tenant;
+      document.getElementById('iotStatus').textContent = c.ready ? `Env ready → ${c.apiUrl}` : 'Set feeder config to push into Syntra';
+    }).catch(() => {});
+  </script>
+</body>
+</html>

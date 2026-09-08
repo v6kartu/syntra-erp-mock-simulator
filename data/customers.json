@@ -1,0 +1,55 @@
+[
+  {
+    "customerName": "Stellantis NV — demo account (UAT)",
+    "apmId": "APM-OEM-STLA-VALEO-001",
+    "hierarchyLevel": "1",
+    "currency": "EUR",
+    "paymentTerms": "NET60",
+    "creditLimit": "2500000",
+    "billingCity": "Amsterdam",
+    "billingCountry": "NL",
+    "industry": "Automotive OEM",
+    "customerType": "OEM",
+    "taxId": "NL-DEMO-000000000",
+    "website": "https://example.invalid/oem-stla-demo"
+  },
+  {
+    "customerName": "Renault Group — demo account (UAT)",
+    "apmId": "APM-OEM-RNO-VALEO-002",
+    "hierarchyLevel": "1",
+    "currency": "EUR",
+    "paymentTerms": "NET45",
+    "creditLimit": "1800000",
+    "billingCity": "Boulogne-Billancourt",
+    "billingCountry": "FR",
+    "industry": "Automotive OEM",
+    "customerType": "OEM",
+    "website": "https://example.invalid/oem-rno-demo"
+  },
+  {
+    "customerName": "Stellantis — EMEA Aftermarket hub (demo)",
+    "apmId": "APM-OEM-STLA-VALEO-001-AM",
+    "parentApmId": "APM-OEM-STLA-VALEO-001",
+    "hierarchyLevel": "2",
+    "currency": "EUR",
+    "paymentTerms": "NET45",
+    "creditLimit": "400000",
+    "billingCity": "Turin",
+    "billingCountry": "IT",
+    "industry": "Automotive aftermarket",
+    "customerType": "DISTRIBUTOR"
+  },
+  {
+    "customerName": "Valeo Service — internal demo dealer",
+    "apmId": "APM-VAL-SVC-INTERNAL-01",
+    "hierarchyLevel": "1",
+    "currency": "EUR",
+    "paymentTerms": "NET30",
+    "creditLimit": "50000",
+    "billingCity": "Paris",
+    "billingCountry": "FR",
+    "industry": "Parts distribution",
+    "customerType": "INTERNAL",
+    "notes": "Synthetic hierarchy for import connector testing only."
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "parentProductId": "VAL-FG-STLA-LED",
+    "componentCode": "VALSUBSTLAOPT",
+    "componentName": "Optical stack (lens + ADB insert)",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-STLA-LED",
+    "componentCode": "VAL-CMP-LENS-CLR",
+    "componentName": "Outer lens",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "VALSUBSTLAOPT"
+  },
+  {
+    "parentProductId": "VAL-FG-STLA-LED",
+    "componentCode": "VAL-CMP-LENS-ADB",
+    "componentName": "ADB micro-lens array",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "VALSUBSTLAOPT"
+  },
+  {
+    "parentProductId": "VAL-FG-STLA-LED",
+    "componentCode": "VAL-CMP-AL-HOUS",
+    "componentName": "Aluminum lamp housing",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-STLA-LED",
+    "componentCode": "VAL-CMP-PCB-LED",
+    "componentName": "LED driver PCB",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-STLA-LED",
+    "componentCode": "VAL-CMP-MCU-AUT",
+    "componentName": "MCU",
+    "qtyPerUnit": "2",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-STLA-LED",
+    "componentCode": "VAL-CMP-BRKT-MNT",
+    "componentName": "Mounting bracket kit",
+    "qtyPerUnit": "4",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-RNLT-HVC",
+    "componentCode": "VALSUBRNLTBLW",
+    "componentName": "Blower module (motor + impeller)",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-RNLT-HVC",
+    "componentCode": "VAL-CMP-BLM-MOT",
+    "componentName": "BLDC blower motor",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "VALSUBRNLTBLW"
+  },
+  {
+    "parentProductId": "VAL-FG-RNLT-HVC",
+    "componentCode": "VAL-CMP-IMPELLER",
+    "componentName": "Impeller",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "VALSUBRNLTBLW"
+  },
+  {
+    "parentProductId": "VAL-FG-RNLT-HVC",
+    "componentCode": "VAL-CMP-HSG-HVAC",
+    "componentName": "Blower housing",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-RNLT-HVC",
+    "componentCode": "VAL-CMP-EXV-VAL",
+    "componentName": "Expansion valve",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-RNLT-HVC",
+    "componentCode": "VAL-CMP-COND-TUBE",
+    "componentName": "Condenser tubing",
+    "qtyPerUnit": "3.5",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-RNLT-HVC",
+    "componentCode": "VAL-CMP-RAD-CORE",
+    "componentName": "Radiator core",
+    "qtyPerUnit": "0.5",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-BMW-ADB",
+    "componentCode": "VALSUBBMWELEC",
+    "componentName": "ADB electronics (PCB + MCU)",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-BMW-ADB",
+    "componentCode": "VAL-CMP-PCB-LED",
+    "componentName": "LED driver PCB",
+    "qtyPerUnit": "2",
+    "level": "1",
+    "parentComponentCode": "VALSUBBMWELEC"
+  },
+  {
+    "parentProductId": "VAL-FG-BMW-ADB",
+    "componentCode": "VAL-CMP-MCU-AUT",
+    "componentName": "MCU",
+    "qtyPerUnit": "3",
+    "level": "1",
+    "parentComponentCode": "VALSUBBMWELEC"
+  },
+  {
+    "parentProductId": "VAL-FG-BMW-ADB",
+    "componentCode": "VAL-CMP-AL-HOUS",
+    "componentName": "Housing",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-BMW-ADB",
+    "componentCode": "VAL-CMP-LENS-ADB",
+    "componentName": "ADB insert",
+    "qtyPerUnit": "2",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-BMW-ADB",
+    "componentCode": "VAL-CMP-GW-AUTO",
+    "componentName": "Gateway ECU",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-GEEL-48V",
+    "componentCode": "VALSUBGEELPWR",
+    "componentName": "48V power stage (BSG + DC-DC)",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-GEEL-48V",
+    "componentCode": "VAL-CMP-BSG-48V",
+    "componentName": "BSG",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "VALSUBGEELPWR"
+  },
+  {
+    "parentProductId": "VAL-FG-GEEL-48V",
+    "componentCode": "VAL-CMP-DCDC-48",
+    "componentName": "DC-DC",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "VALSUBGEELPWR"
+  },
+  {
+    "parentProductId": "VAL-FG-GEEL-48V",
+    "componentCode": "VAL-CMP-BMS-SLV",
+    "componentName": "BMS slave",
+    "qtyPerUnit": "4",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-GEEL-48V",
+    "componentCode": "VAL-CMP-BRKT-MNT",
+    "componentName": "Brackets",
+    "qtyPerUnit": "6",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-FORD-WIP",
+    "componentCode": "VALSUBFORDWIP",
+    "componentName": "Wiper blade kit (arm + rubber)",
+    "qtyPerUnit": "2",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-FORD-WIP",
+    "componentCode": "VAL-CMP-WIP-ARM",
+    "componentName": "Wiper arm",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "VALSUBFORDWIP"
+  },
+  {
+    "parentProductId": "VAL-FG-FORD-WIP",
+    "componentCode": "VAL-CMP-WIP-RUB",
+    "componentName": "Rubber",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "VALSUBFORDWIP"
+  },
+  {
+    "parentProductId": "VAL-FG-FORD-WIP",
+    "componentCode": "VAL-CMP-RAIN-SEN",
+    "componentName": "Rain sensor",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-FORD-WIP",
+    "componentCode": "VAL-CMP-BRKT-MNT",
+    "componentName": "Brackets",
+    "qtyPerUnit": "2",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-TSLA-THM",
+    "componentCode": "VALSUBTSLALP",
+    "componentName": "Liquid cooling pack (radiator + oil cooler)",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-TSLA-THM",
+    "componentCode": "VAL-CMP-RAD-CORE",
+    "componentName": "Radiator core",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "VALSUBTSLALP"
+  },
+  {
+    "parentProductId": "VAL-FG-TSLA-THM",
+    "componentCode": "VAL-CMP-OIL-CRK",
+    "componentName": "Oil cooler",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "VALSUBTSLALP"
+  },
+  {
+    "parentProductId": "VAL-FG-TSLA-THM",
+    "componentCode": "VAL-CMP-EXV-VAL",
+    "componentName": "EXV",
+    "qtyPerUnit": "2",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-TSLA-THM",
+    "componentCode": "VAL-CMP-FAN-12V",
+    "componentName": "Fan",
+    "qtyPerUnit": "2",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-HOND-SNS",
+    "componentCode": "VALSUBHONDRAD",
+    "componentName": "Radar integration module",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-HOND-SNS",
+    "componentCode": "VAL-CMP-RAD-77G",
+    "componentName": "Corner radar",
+    "qtyPerUnit": "2",
+    "level": "1",
+    "parentComponentCode": "VALSUBHONDRAD"
+  },
+  {
+    "parentProductId": "VAL-FG-HOND-SNS",
+    "componentCode": "VAL-CMP-WSS-HAR",
+    "componentName": "Wheel speed harness",
+    "qtyPerUnit": "4",
+    "level": "1",
+    "parentComponentCode": "VALSUBHONDRAD"
+  },
+  {
+    "parentProductId": "VAL-FG-HOND-SNS",
+    "componentCode": "VAL-CMP-BRKT-MNT",
+    "componentName": "Brackets",
+    "qtyPerUnit": "8",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-BYD-BMS",
+    "componentCode": "VALSUBBYDBMS",
+    "componentName": "BMS monitoring stack",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-BYD-BMS",
+    "componentCode": "VAL-CMP-BMS-SLV",
+    "componentName": "BMS slave",
+    "qtyPerUnit": "8",
+    "level": "1",
+    "parentComponentCode": "VALSUBBYDBMS"
+  },
+  {
+    "parentProductId": "VAL-FG-BYD-BMS",
+    "componentCode": "VAL-CMP-MCU-AUT",
+    "componentName": "MCU",
+    "qtyPerUnit": "2",
+    "level": "1",
+    "parentComponentCode": "VALSUBBYDBMS"
+  },
+  {
+    "parentProductId": "VAL-FG-BYD-BMS",
+    "componentCode": "VAL-CMP-DCDC-48",
+    "componentName": "DC-DC",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-BYD-BMS",
+    "componentCode": "VAL-CMP-PCB-LED",
+    "componentName": "Aux PCB",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-STNA-LGT",
+    "componentCode": "VALSUBSTNALGT",
+    "componentName": "Rear lamp light engine",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-STNA-LGT",
+    "componentCode": "VAL-CMP-LENS-CLR",
+    "componentName": "Lens",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "VALSUBSTNALGT"
+  },
+  {
+    "parentProductId": "VAL-FG-STNA-LGT",
+    "componentCode": "VAL-CMP-PCB-LED",
+    "componentName": "PCB",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "VALSUBSTNALGT"
+  },
+  {
+    "parentProductId": "VAL-FG-STNA-LGT",
+    "componentCode": "VAL-CMP-AL-HOUS",
+    "componentName": "Housing",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-STNA-LGT",
+    "componentCode": "VAL-CMP-MCU-AUT",
+    "componentName": "MCU",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-VWAG-CLM",
+    "componentCode": "VALSUBVWAGCLM",
+    "componentName": "Front climate pack (housing + motor)",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-VWAG-CLM",
+    "componentCode": "VAL-CMP-HSG-HVAC",
+    "componentName": "Housing",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "VALSUBVWAGCLM"
+  },
+  {
+    "parentProductId": "VAL-FG-VWAG-CLM",
+    "componentCode": "VAL-CMP-BLM-MOT",
+    "componentName": "Motor",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "VALSUBVWAGCLM"
+  },
+  {
+    "parentProductId": "VAL-FG-VWAG-CLM",
+    "componentCode": "VAL-CMP-EXV-VAL",
+    "componentName": "EXV",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-VWAG-CLM",
+    "componentCode": "VAL-CMP-RAD-CORE",
+    "componentName": "Radiator",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": ""
+  },
+  {
+    "parentProductId": "VAL-FG-VWAG-CLM",
+    "componentCode": "VAL-CMP-COND-TUBE",
+    "componentName": "Condenser tube",
+    "qtyPerUnit": "2.2",
+    "level": "0",
+    "parentComponentCode": ""
+  }
+]

@@ -1,0 +1,243 @@
+[
+  {
+    "parentProductId": "FG-VAL-HVAC-001",
+    "componentCode": "7150021100",
+    "componentName": "Blower motor assembly — 12V brushless (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "FG-VAL-HVAC-001",
+    "componentCode": "8150043201",
+    "componentName": "Evaporator core — aluminum microchannel (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "FG-VAL-HVAC-001",
+    "componentCode": "7000098842",
+    "componentName": "Expansion valve — electronic EXV (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "FG-VAL-HVAC-001",
+    "componentCode": "8500991203",
+    "componentName": "Refrigerant line set — low pressure hose (demo)",
+    "qtyPerUnit": "2",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "FG-VAL-HVAC-001",
+    "componentCode": "8500772100",
+    "componentName": "ECU — HVAC control unit firmware rev A12 (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "FG-VAL-HVAC-001",
+    "componentCode": "9900100001",
+    "componentName": "PAG oil — 250ml service bottle (demo)",
+    "qtyPerUnit": "0.2",
+    "qtyUom": "BT"
+  },
+  {
+    "parentProductId": "FG-VAL-SEN-002",
+    "componentCode": "8900112200",
+    "componentName": "IR ambient light sensor — AEC-Q100 (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "FG-VAL-SEN-002",
+    "componentCode": "8900112201",
+    "componentName": "Capacitive rain sensor film — bonded glass kit (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "FG-VAL-SEN-002",
+    "componentCode": "8900112202",
+    "componentName": "Sensor bracket — die-cast zinc (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "FG-VAL-SEN-002",
+    "componentCode": "8900112203",
+    "componentName": "LVDS harness — 0.5m twisted pair (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "FG-VAL-SEN-002",
+    "componentCode": "8900112204",
+    "componentName": "Gasket / foam seal — IP54 (demo)",
+    "qtyPerUnit": "2",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "FG-VAL-MIX-003",
+    "componentCode": "MIX-GPH-01",
+    "componentName": "Graphite carrier sheet — grade A (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA",
+    "percentageMix": "62"
+  },
+  {
+    "parentProductId": "FG-VAL-MIX-003",
+    "componentCode": "MIX-SIL-02",
+    "componentName": "Silicone binder film — high thermal path (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA",
+    "percentageMix": "28"
+  },
+  {
+    "parentProductId": "FG-VAL-MIX-003",
+    "componentCode": "MIX-CER-03",
+    "componentName": "Ceramic filler sheet — hardness / cost hedge (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA",
+    "percentageMix": "10"
+  },
+  {
+    "parentProductId": "SA-VAL-COMP-100",
+    "componentCode": "MIX-GPH-01",
+    "componentName": "Graphite carrier sheet — grade A (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-COMP-100",
+    "componentCode": "MIX-SIL-02",
+    "componentName": "Silicone binder film — high thermal path (demo)",
+    "qtyPerUnit": "0.5",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-COMP-101",
+    "componentCode": "MIX-SIL-02",
+    "componentName": "Silicone binder film — high thermal path (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-COMP-101",
+    "componentCode": "MIX-CER-03",
+    "componentName": "Ceramic filler sheet — hardness / cost hedge (demo)",
+    "qtyPerUnit": "0.5",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-COMP-102",
+    "componentCode": "MIX-CER-03",
+    "componentName": "Ceramic filler sheet — hardness / cost hedge (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-COMP-102",
+    "componentCode": "9900100001",
+    "componentName": "PAG oil — 250ml service bottle (demo)",
+    "qtyPerUnit": "0.5",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-COMP-103",
+    "componentCode": "9900100001",
+    "componentName": "PAG oil — 250ml service bottle (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-COMP-103",
+    "componentCode": "9900100002",
+    "componentName": "R-1234yf charge coupling — SAE J2843 (demo)",
+    "qtyPerUnit": "0.5",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-COMP-104",
+    "componentCode": "9900100002",
+    "componentName": "R-1234yf charge coupling — SAE J2843 (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-COMP-104",
+    "componentCode": "MIX-GPH-01",
+    "componentName": "Graphite carrier sheet — grade A (demo)",
+    "qtyPerUnit": "0.5",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-SEN-200",
+    "componentCode": "MIX-GPH-01",
+    "componentName": "Graphite carrier sheet — grade A (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-SEN-200",
+    "componentCode": "MIX-SIL-02",
+    "componentName": "Silicone binder film — high thermal path (demo)",
+    "qtyPerUnit": "0.5",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-SEN-201",
+    "componentCode": "MIX-SIL-02",
+    "componentName": "Silicone binder film — high thermal path (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-SEN-201",
+    "componentCode": "MIX-CER-03",
+    "componentName": "Ceramic filler sheet — hardness / cost hedge (demo)",
+    "qtyPerUnit": "0.5",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-SEN-202",
+    "componentCode": "MIX-CER-03",
+    "componentName": "Ceramic filler sheet — hardness / cost hedge (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-SEN-202",
+    "componentCode": "9900100001",
+    "componentName": "PAG oil — 250ml service bottle (demo)",
+    "qtyPerUnit": "0.5",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-SEN-203",
+    "componentCode": "9900100001",
+    "componentName": "PAG oil — 250ml service bottle (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-SEN-203",
+    "componentCode": "9900100002",
+    "componentName": "R-1234yf charge coupling — SAE J2843 (demo)",
+    "qtyPerUnit": "0.5",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-SEN-204",
+    "componentCode": "9900100002",
+    "componentName": "R-1234yf charge coupling — SAE J2843 (demo)",
+    "qtyPerUnit": "1",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "SA-VAL-SEN-204",
+    "componentCode": "MIX-GPH-01",
+    "componentName": "Graphite carrier sheet — grade A (demo)",
+    "qtyPerUnit": "0.5",
+    "qtyUom": "EA"
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "customerName": "Mercedes-Benz AG (HQ)",
+    "apmId": "MBGHQ001",
+    "hierarchyLevel": "0",
+    "email": "procurement@mercedes-uat.example.com",
+    "phone": "+49-711-17-0",
+    "companyName": "Mercedes-Benz AG",
+    "currency": "EUR",
+    "industry": "Automotive OEM",
+    "customerType": "INTERNAL_HUB",
+    "billingCountry": "DE",
+    "shippingCountry": "DE",
+    "paymentTerms": "Net 45",
+    "creditLimit": "100000000",
+    "notes": "Synthetic UAT — Mercedes company pack"
+  },
+  {
+    "customerName": "Mercedes-Benz Sindelfingen Plant",
+    "apmId": "MBGSIN01",
+    "parentApmId": "MBGHQ001",
+    "hierarchyLevel": "1",
+    "email": "sindelfingen@mercedes-uat.example.com",
+    "companyName": "Mercedes-Benz AG",
+    "currency": "EUR",
+    "customerType": "PLANT",
+    "billingCountry": "DE",
+    "shippingCountry": "DE",
+    "paymentTerms": "Net 45",
+    "creditLimit": "25000000",
+    "notes": "Plant ship-to Sindelfingen"
+  },
+  {
+    "customerName": "Mercedes-Benz Tuscaloosa Plant",
+    "apmId": "MBGTUS01",
+    "parentApmId": "MBGHQ001",
+    "hierarchyLevel": "1",
+    "email": "tuscaloosa@mercedes-uat.example.com",
+    "companyName": "Mercedes-Benz U.S. International",
+    "currency": "USD",
+    "customerType": "PLANT",
+    "billingCountry": "US",
+    "shippingCountry": "US",
+    "paymentTerms": "Net 30",
+    "creditLimit": "20000000",
+    "notes": "Plant ship-to Tuscaloosa"
+  },
+  {
+    "customerName": "Mercedes-Benz Beijing BBAC",
+    "apmId": "MBGBEI01",
+    "parentApmId": "MBGHQ001",
+    "hierarchyLevel": "1",
+    "email": "beijing@mercedes-uat.example.com",
+    "companyName": "Beijing Benz Automotive",
+    "currency": "CNY",
+    "customerType": "PLANT",
+    "billingCountry": "CN",
+    "shippingCountry": "CN",
+    "paymentTerms": "Net 60",
+    "creditLimit": "30000000",
+    "notes": "Plant ship-to Beijing"
+  }
+]

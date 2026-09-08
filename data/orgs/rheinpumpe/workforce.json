@@ -1,0 +1,170 @@
+[
+  {
+    "email": "operator.1@uat.example.com",
+    "firstName": "Operator",
+    "lastName": "01",
+    "displayName": "Operator 01 — NordWasser Utilities AG - Ruhr Plant",
+    "plantCode": "RHP-CZ-BRN",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR",
+    "apmId": "RHPNWRDU"
+  },
+  {
+    "email": "operator.2@uat.example.com",
+    "firstName": "Operator",
+    "lastName": "02",
+    "displayName": "Operator 02 — NordWasser Utilities Iberia - Valencia Pump Station",
+    "plantCode": "RHP-ES-BCN",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR",
+    "apmId": "RHPNWVES"
+  },
+  {
+    "email": "operator.3@uat.example.com",
+    "firstName": "Operator",
+    "lastName": "03",
+    "displayName": "Operator 03 — EuroTherm Climate Systems - Regensburg Works",
+    "plantCode": "RHP-FR-LYN",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR",
+    "apmId": "RHPECRDE"
+  },
+  {
+    "email": "operator.4@uat.example.com",
+    "firstName": "Operator",
+    "lastName": "04",
+    "displayName": "Operator 04 — EuroTherm Climate Systems - Zaragoza Works",
+    "plantCode": "RHP-DE-DUI",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR",
+    "apmId": "RHPECZES"
+  },
+  {
+    "email": "operator.5@uat.example.com",
+    "firstName": "Operator",
+    "lastName": "05",
+    "displayName": "Operator 05 — ChemFlow Process SAS - Fos Sur Mer Package Unit",
+    "plantCode": "RHP-CZ-BRN",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR",
+    "apmId": "RHPCFFOS"
+  },
+  {
+    "email": "operator.6@uat.example.com",
+    "firstName": "Operator",
+    "lastName": "06",
+    "displayName": "Operator 06 — RheinPumpe Service France SARL",
+    "plantCode": "RHP-ES-BCN",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR",
+    "apmId": "RHPSVCFR"
+  },
+  {
+    "email": "line.rhp.de.dui.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "RHP-DE-DUI-1",
+    "displayName": "RheinPumpe Duisburg Assembly Line Op 1",
+    "plantCode": "RHP-DE-DUI",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.rhp.de.dui.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "RHP-DE-DUI-2",
+    "displayName": "RheinPumpe Duisburg Assembly Line Op 2",
+    "plantCode": "RHP-DE-DUI",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.rhp.de.dui.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "RHP-DE-DUI-3",
+    "displayName": "RheinPumpe Duisburg Assembly Line Op 3",
+    "plantCode": "RHP-DE-DUI",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  },
+  {
+    "email": "line.rhp.cz.brn.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "RHP-CZ-BRN-1",
+    "displayName": "RheinPumpe Brno Machining Line Op 1",
+    "plantCode": "RHP-CZ-BRN",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.rhp.cz.brn.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "RHP-CZ-BRN-2",
+    "displayName": "RheinPumpe Brno Machining Line Op 2",
+    "plantCode": "RHP-CZ-BRN",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.rhp.cz.brn.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "RHP-CZ-BRN-3",
+    "displayName": "RheinPumpe Brno Machining Line Op 3",
+    "plantCode": "RHP-CZ-BRN",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  },
+  {
+    "email": "line.rhp.es.bcn.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "RHP-ES-BCN-1",
+    "displayName": "RheinPumpe Barcelona Assembly Line Op 1",
+    "plantCode": "RHP-ES-BCN",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.rhp.es.bcn.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "RHP-ES-BCN-2",
+    "displayName": "RheinPumpe Barcelona Assembly Line Op 2",
+    "plantCode": "RHP-ES-BCN",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.rhp.es.bcn.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "RHP-ES-BCN-3",
+    "displayName": "RheinPumpe Barcelona Assembly Line Op 3",
+    "plantCode": "RHP-ES-BCN",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  },
+  {
+    "email": "line.rhp.fr.lyn.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "RHP-FR-LYN-1",
+    "displayName": "RheinPumpe Lyon Service Hub Line Op 1",
+    "plantCode": "RHP-FR-LYN",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.rhp.fr.lyn.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "RHP-FR-LYN-2",
+    "displayName": "RheinPumpe Lyon Service Hub Line Op 2",
+    "plantCode": "RHP-FR-LYN",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.rhp.fr.lyn.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "RHP-FR-LYN-3",
+    "displayName": "RheinPumpe Lyon Service Hub Line Op 3",
+    "plantCode": "RHP-FR-LYN",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "scenario": "shortage",
+  "skuHints": [
+    "VAL-CMP-AL-HOUS",
+    "VAL-FG-STLA-LED"
+  ]
+}

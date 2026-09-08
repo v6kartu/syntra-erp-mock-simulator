@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: syntra-erp-mock-simulator
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 9090

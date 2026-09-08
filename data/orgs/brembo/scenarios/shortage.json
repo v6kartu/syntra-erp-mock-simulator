@@ -1,0 +1,8 @@
+{
+  "scenario": "shortage",
+  "skuHints": [
+    "BRB-CMP-PIST-SS34",
+    "BRB-CMP-PAD-SINT",
+    "BRB-FG-YAM-R15F"
+  ]
+}

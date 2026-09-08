@@ -1,0 +1,7 @@
+{
+  "scenario": "shortage",
+  "skuHints": [
+    "MBG-CMP-ROT-CC",
+    "MBG-FG-AMG-CAL"
+  ]
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "email": "line.val.cn.sha.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "VAL-CN-SHA-1",
+    "displayName": "Valeo Shanghai Line Op 1",
+    "plantCode": "VAL-CN-SHA",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.val.cn.sha.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "VAL-CN-SHA-2",
+    "displayName": "Valeo Shanghai Line Op 2",
+    "plantCode": "VAL-CN-SHA",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.val.cn.sha.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "VAL-CN-SHA-3",
+    "displayName": "Valeo Shanghai Line Op 3",
+    "plantCode": "VAL-CN-SHA",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  },
+  {
+    "email": "line.val.eu.cdg.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "VAL-EU-CDG-1",
+    "displayName": "Valeo CDG (Paris hub) Line Op 1",
+    "plantCode": "VAL-EU-CDG",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.val.eu.cdg.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "VAL-EU-CDG-2",
+    "displayName": "Valeo CDG (Paris hub) Line Op 2",
+    "plantCode": "VAL-EU-CDG",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.val.eu.cdg.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "VAL-EU-CDG-3",
+    "displayName": "Valeo CDG (Paris hub) Line Op 3",
+    "plantCode": "VAL-EU-CDG",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  },
+  {
+    "email": "line.val.eu.str.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "VAL-EU-STR-1",
+    "displayName": "Valeo Strasbourg Line Op 1",
+    "plantCode": "VAL-EU-STR",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.val.eu.str.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "VAL-EU-STR-2",
+    "displayName": "Valeo Strasbourg Line Op 2",
+    "plantCode": "VAL-EU-STR",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.val.eu.str.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "VAL-EU-STR-3",
+    "displayName": "Valeo Strasbourg Line Op 3",
+    "plantCode": "VAL-EU-STR",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  },
+  {
+    "email": "line.val.jp.yok.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "VAL-JP-YOK-1",
+    "displayName": "Valeo Yokohama Line Op 1",
+    "plantCode": "VAL-JP-YOK",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.val.jp.yok.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "VAL-JP-YOK-2",
+    "displayName": "Valeo Yokohama Line Op 2",
+    "plantCode": "VAL-JP-YOK",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.val.jp.yok.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "VAL-JP-YOK-3",
+    "displayName": "Valeo Yokohama Line Op 3",
+    "plantCode": "VAL-JP-YOK",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  },
+  {
+    "email": "line.val.na.det.1@uat.example.com",
+    "firstName": "Line",
+    "lastName": "VAL-NA-DET-1",
+    "displayName": "Valeo Detroit Line Op 1",
+    "plantCode": "VAL-NA-DET",
+    "departmentCode": "LINE-ASSY-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.val.na.det.2@uat.example.com",
+    "firstName": "Line",
+    "lastName": "VAL-NA-DET-2",
+    "displayName": "Valeo Detroit Line Op 2",
+    "plantCode": "VAL-NA-DET",
+    "departmentCode": "LINE-MACH-01",
+    "role": "OPERATOR"
+  },
+  {
+    "email": "line.val.na.det.3@uat.example.com",
+    "firstName": "Line",
+    "lastName": "VAL-NA-DET-3",
+    "displayName": "Valeo Detroit Line Op 3",
+    "plantCode": "VAL-NA-DET",
+    "departmentCode": "LINE-QA-01",
+    "role": "QA_INSPECTOR"
+  }
+]

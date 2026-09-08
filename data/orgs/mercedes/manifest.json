@@ -1,0 +1,64 @@
+{
+  "orgId": "mercedes",
+  "displayName": "Mercedes-Benz Braking Modules (UAT)",
+  "defaultCurrency": "EUR",
+  "plants": [
+    {
+      "code": "MBG-DE-SIN",
+      "name": "Mercedes Sindelfingen DE",
+      "ianaTimezone": "Europe/Berlin"
+    },
+    {
+      "code": "MBG-DE-BRE",
+      "name": "Mercedes Bremen DE",
+      "ianaTimezone": "Europe/Berlin"
+    },
+    {
+      "code": "MBG-US-TUS",
+      "name": "Mercedes Tuscaloosa US",
+      "ianaTimezone": "America/Chicago"
+    },
+    {
+      "code": "MBG-CN-BEI",
+      "name": "Mercedes Beijing CN",
+      "ianaTimezone": "Asia/Shanghai"
+    }
+  ],
+  "modules": [
+    "customers",
+    "products",
+    "plants",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "importOrder": [
+    "plants",
+    "customers",
+    "products",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "productSkuPrefixes": [
+    "MBG-"
+  ],
+  "shortageSkus": [
+    "MBG-CMP-ROT-CC",
+    "MBG-FG-AMG-CAL",
+    "MBG-CMP-BBW-ACT"
+  ],
+  "surgeSkus": [
+    "MBG-CMP-SEAL-KIT",
+    "MBG-FG-EQE-FBBW"
+  ],
+  "connectorUrlsHint": {
+    "customers": "http://erp-import-simulator:9090/feed/mercedes/customers.json",
+    "products": "http://erp-import-simulator:9090/feed/mercedes/products.json",
+    "inventory": "http://erp-import-simulator:9090/feed/mercedes/inventory.json",
+    "inventoryPlant": "http://erp-import-simulator:9090/feed/mercedes/inventory.json?plant=MBG-DE-SIN",
+    "bom": "http://erp-import-simulator:9090/feed/mercedes/bom.json",
+    "plants": "http://erp-import-simulator:9090/feed/mercedes/plants.json",
+    "workforce": "http://erp-import-simulator:9090/feed/mercedes/workforce.json"
+  }
+}

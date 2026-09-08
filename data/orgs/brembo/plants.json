@@ -1,0 +1,44 @@
+[
+  {
+    "code": "BRB-IN-CHN",
+    "name": "Brembo Chennai India",
+    "status": "ACTIVE",
+    "ianaTimezone": "Asia/Kolkata"
+  },
+  {
+    "code": "BRB-IN-HOS",
+    "name": "Brembo Hosur India",
+    "status": "ACTIVE",
+    "ianaTimezone": "Asia/Kolkata"
+  },
+  {
+    "code": "BRB-IN-MNS",
+    "name": "Brembo Manesar India",
+    "status": "ACTIVE",
+    "ianaTimezone": "Asia/Kolkata"
+  },
+  {
+    "code": "BRB-IN-PUN",
+    "name": "Brembo Pune India",
+    "status": "ACTIVE",
+    "ianaTimezone": "Asia/Kolkata"
+  },
+  {
+    "code": "BRB-IN-TRN",
+    "name": "Brembo Transit India",
+    "status": "ACTIVE",
+    "ianaTimezone": "Asia/Kolkata"
+  },
+  {
+    "code": "BRB-IT-BERG",
+    "name": "Brembo Bergamo Italy",
+    "status": "ACTIVE",
+    "ianaTimezone": "Europe/Rome"
+  },
+  {
+    "code": "BRB-IT-PONT",
+    "name": "Brembo Pontirolo Italy",
+    "status": "ACTIVE",
+    "ianaTimezone": "Europe/Rome"
+  }
+]
