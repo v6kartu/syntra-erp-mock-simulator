@@ -29,5 +29,6 @@ Current generated packs:
 - `mercedes` — premium braking modules
 - `rheinpumpe` — European industrial pumps (DE/CZ/ES/FR)
 - `ashraexports` — Indian knitwear exporter (Tirupur / Coimbatore / Noida)
+- `meas` — MEAS solder paste, cored wire, and bulk metal (kg packs)
 
 Feed URLs: `/feed/{orgId}/{module}.json` and optional `?plant={code}`.

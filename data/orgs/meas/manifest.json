@@ -1,0 +1,60 @@
+{
+  "orgId": "meas",
+  "displayName": "MEAS (solder paste, wire, bulk metal)",
+  "defaultCurrency": "USD",
+  "industry": "Solder paste, cored wire, and bulk metal (kg)",
+  "plants": [
+    {
+      "code": "MEA-US-HOU",
+      "name": "MEAS Houston Blend & Pack",
+      "ianaTimezone": "America/Chicago"
+    },
+    {
+      "code": "MEA-AE-JAL",
+      "name": "MEAS Jebel Ali Wire Draw",
+      "ianaTimezone": "Asia/Dubai"
+    },
+    {
+      "code": "MEA-ID-BTM",
+      "name": "MEAS Batam Metal Mill",
+      "ianaTimezone": "Asia/Jakarta"
+    }
+  ],
+  "modules": [
+    "customers",
+    "products",
+    "plants",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "importOrder": [
+    "plants",
+    "customers",
+    "products",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "productSkuPrefixes": [
+    "MEA-"
+  ],
+  "shortageSkus": [
+    "MEA-CMP-AG-PWD",
+    "MEA-FG-WIR-SAC-10KG",
+    "MEA-FG-MTL-MIX-5KG"
+  ],
+  "surgeSkus": [
+    "MEA-CMP-SN-INGOT",
+    "MEA-FG-WIR-SAC-1KG"
+  ],
+  "connectorUrlsHint": {
+    "customers": "http://erp-import-simulator:9090/feed/meas/customers.json",
+    "products": "http://erp-import-simulator:9090/feed/meas/products.json",
+    "inventory": "http://erp-import-simulator:9090/feed/meas/inventory.json",
+    "inventoryPlant": "http://erp-import-simulator:9090/feed/meas/inventory.json?plant=MEA-US-HOU",
+    "bom": "http://erp-import-simulator:9090/feed/meas/bom.json",
+    "plants": "http://erp-import-simulator:9090/feed/meas/plants.json",
+    "workforce": "http://erp-import-simulator:9090/feed/meas/workforce.json"
+  }
+}

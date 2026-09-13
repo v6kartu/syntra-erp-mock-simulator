@@ -1,0 +1,82 @@
+[
+  {
+    "email": "elena.marsh@meas-uat.example.com",
+    "firstName": "Elena",
+    "lastName": "Marsh",
+    "displayName": "Elena Marsh — PLANNING",
+    "plantCode": "MEA-US-HOU",
+    "departmentCode": "PLANNING",
+    "role": "PLANNER",
+    "apmId": "MEAWF001"
+  },
+  {
+    "email": "david.ortiz@meas-uat.example.com",
+    "firstName": "David",
+    "lastName": "Ortiz",
+    "displayName": "David Ortiz — SALES",
+    "plantCode": "MEA-US-HOU",
+    "departmentCode": "SALES",
+    "role": "SALES",
+    "apmId": "MEAWF002"
+  },
+  {
+    "email": "priya.nair@meas-uat.example.com",
+    "firstName": "Priya",
+    "lastName": "Nair",
+    "displayName": "Priya Nair — BLEND",
+    "plantCode": "MEA-US-HOU",
+    "departmentCode": "BLEND",
+    "role": "SUPERVISOR",
+    "apmId": "MEAWF003"
+  },
+  {
+    "email": "hassan.farid@meas-uat.example.com",
+    "firstName": "Hassan",
+    "lastName": "Farid",
+    "displayName": "Hassan Farid — WIRE",
+    "plantCode": "MEA-AE-JAL",
+    "departmentCode": "WIRE",
+    "role": "SUPERVISOR",
+    "apmId": "MEAWF004"
+  },
+  {
+    "email": "siti.rahman@meas-uat.example.com",
+    "firstName": "Siti",
+    "lastName": "Rahman",
+    "displayName": "Siti Rahman — MILL",
+    "plantCode": "MEA-ID-BTM",
+    "departmentCode": "MILL",
+    "role": "SUPERVISOR",
+    "apmId": "MEAWF005"
+  },
+  {
+    "email": "james.cole@meas-uat.example.com",
+    "firstName": "James",
+    "lastName": "Cole",
+    "displayName": "James Cole — QA",
+    "plantCode": "MEA-US-HOU",
+    "departmentCode": "QA",
+    "role": "QA_INSPECTOR",
+    "apmId": "MEAWF006"
+  },
+  {
+    "email": "nora.alami@meas-uat.example.com",
+    "firstName": "Nora",
+    "lastName": "Alami",
+    "displayName": "Nora Alami — WIRE",
+    "plantCode": "MEA-AE-JAL",
+    "departmentCode": "WIRE",
+    "role": "OPERATOR",
+    "apmId": "MEAWF007"
+  },
+  {
+    "email": "budi.santoso@meas-uat.example.com",
+    "firstName": "Budi",
+    "lastName": "Santoso",
+    "displayName": "Budi Santoso — MILL",
+    "plantCode": "MEA-ID-BTM",
+    "departmentCode": "MILL",
+    "role": "OPERATOR",
+    "apmId": "MEAWF008"
+  }
+]

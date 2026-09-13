@@ -1,0 +1,26 @@
+[
+  {
+    "code": "MEA-US-HOU",
+    "name": "MEAS Houston Blend & Pack",
+    "status": "ACTIVE",
+    "ianaTimezone": "America/Chicago",
+    "city": "Houston",
+    "notes": "Solder paste mixing, jar pack 1 kg / 5 kg"
+  },
+  {
+    "code": "MEA-AE-JAL",
+    "name": "MEAS Jebel Ali Wire Draw",
+    "status": "ACTIVE",
+    "ianaTimezone": "Asia/Dubai",
+    "city": "Jebel Ali",
+    "notes": "Solder wire draw and spool pack 1 kg / 5 kg / 10 kg"
+  },
+  {
+    "code": "MEA-ID-BTM",
+    "name": "MEAS Batam Metal Mill",
+    "status": "ACTIVE",
+    "ianaTimezone": "Asia/Jakarta",
+    "city": "Batam",
+    "notes": "Tin, copper, and plate — bulk kg lots"
+  }
+]

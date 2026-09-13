@@ -1,0 +1,8 @@
+{
+  "scenario": "shortage",
+  "skuHints": [
+    "MEA-CMP-AG-PWD",
+    "MEA-FG-WIR-SAC-10KG",
+    "MEA-FG-MTL-MIX-5KG"
+  ]
+}

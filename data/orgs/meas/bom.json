@@ -1,0 +1,263 @@
+[
+  {
+    "parentProductId": "MEA-SUB-ALY-SAC305",
+    "componentCode": "MEA-CMP-SN-INGOT",
+    "componentName": "Tin ingot 99.9%",
+    "qtyPerUnit": "0.965",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-SUB-ALY-SAC305",
+    "componentCode": "MEA-CMP-AG-PWD",
+    "componentName": "Silver powder 99.95%",
+    "qtyPerUnit": "0.030",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-SUB-ALY-SAC305",
+    "componentCode": "MEA-CMP-CU-ROD",
+    "componentName": "Copper cathode / rod",
+    "qtyPerUnit": "0.005",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-SUB-ALY-SN63",
+    "componentCode": "MEA-CMP-SN-INGOT",
+    "componentName": "Tin ingot 99.9%",
+    "qtyPerUnit": "0.630",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-SUB-ALY-SN63",
+    "componentCode": "MEA-CMP-PB-INGOT",
+    "componentName": "Lead (UAT restricted lot)",
+    "qtyPerUnit": "0.370",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-PST-SAC-1KG",
+    "componentCode": "MEA-SUB-ALY-SAC305",
+    "componentName": "SAC305 alloy bulk",
+    "qtyPerUnit": "0.88",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-PST-SAC-1KG",
+    "componentCode": "MEA-CMP-FLUX-NC",
+    "componentName": "No-clean flux vehicle",
+    "qtyPerUnit": "0.12",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-PST-SAC-5KG",
+    "componentCode": "MEA-SUB-ALY-SAC305",
+    "componentName": "SAC305 alloy bulk",
+    "qtyPerUnit": "4.40",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-PST-SAC-5KG",
+    "componentCode": "MEA-CMP-FLUX-NC",
+    "componentName": "No-clean flux vehicle",
+    "qtyPerUnit": "0.60",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-PST-SN63-1KG",
+    "componentCode": "MEA-SUB-ALY-SN63",
+    "componentName": "Sn63Pb37 alloy bulk",
+    "qtyPerUnit": "0.89",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-PST-SN63-1KG",
+    "componentCode": "MEA-CMP-FLUX-ROS",
+    "componentName": "Rosin flux concentrate",
+    "qtyPerUnit": "0.11",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-PST-SN63-5KG",
+    "componentCode": "MEA-SUB-ALY-SN63",
+    "componentName": "Sn63Pb37 alloy bulk",
+    "qtyPerUnit": "4.45",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-PST-SN63-5KG",
+    "componentCode": "MEA-CMP-FLUX-ROS",
+    "componentName": "Rosin flux concentrate",
+    "qtyPerUnit": "0.55",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-WIR-SAC-1KG",
+    "componentCode": "MEA-SUB-ALY-SAC305",
+    "componentName": "SAC305 alloy bulk",
+    "qtyPerUnit": "0.97",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-WIR-SAC-1KG",
+    "componentCode": "MEA-CMP-FLUX-NC",
+    "componentName": "No-clean flux vehicle",
+    "qtyPerUnit": "0.03",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-WIR-SAC-5KG",
+    "componentCode": "MEA-SUB-ALY-SAC305",
+    "componentName": "SAC305 alloy bulk",
+    "qtyPerUnit": "4.85",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-WIR-SAC-5KG",
+    "componentCode": "MEA-CMP-FLUX-NC",
+    "componentName": "No-clean flux vehicle",
+    "qtyPerUnit": "0.15",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-WIR-SAC-10KG",
+    "componentCode": "MEA-SUB-ALY-SAC305",
+    "componentName": "SAC305 alloy bulk",
+    "qtyPerUnit": "9.70",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-WIR-SAC-10KG",
+    "componentCode": "MEA-CMP-FLUX-NC",
+    "componentName": "No-clean flux vehicle",
+    "qtyPerUnit": "0.30",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-WIR-SN63-1KG",
+    "componentCode": "MEA-SUB-ALY-SN63",
+    "componentName": "Sn63Pb37 alloy bulk",
+    "qtyPerUnit": "0.97",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-WIR-SN63-1KG",
+    "componentCode": "MEA-CMP-FLUX-ROS",
+    "componentName": "Rosin flux concentrate",
+    "qtyPerUnit": "0.03",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-WIR-SN63-5KG",
+    "componentCode": "MEA-SUB-ALY-SN63",
+    "componentName": "Sn63Pb37 alloy bulk",
+    "qtyPerUnit": "4.85",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-WIR-SN63-5KG",
+    "componentCode": "MEA-CMP-FLUX-ROS",
+    "componentName": "Rosin flux concentrate",
+    "qtyPerUnit": "0.15",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-MTL-SN-1KG",
+    "componentCode": "MEA-CMP-SN-INGOT",
+    "componentName": "Tin ingot 99.9%",
+    "qtyPerUnit": "1.00",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-MTL-SN-5KG",
+    "componentCode": "MEA-CMP-SN-INGOT",
+    "componentName": "Tin ingot 99.9%",
+    "qtyPerUnit": "5.00",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-MTL-CU-5KG",
+    "componentCode": "MEA-CMP-CU-ROD",
+    "componentName": "Copper cathode / rod",
+    "qtyPerUnit": "5.00",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-MTL-CU-25KG",
+    "componentCode": "MEA-CMP-CU-ROD",
+    "componentName": "Copper cathode / rod",
+    "qtyPerUnit": "25.00",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-MTL-MIX-5KG",
+    "componentCode": "MEA-CMP-SN-INGOT",
+    "componentName": "Tin ingot 99.9%",
+    "qtyPerUnit": "2.50",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "MEA-FG-MTL-MIX-5KG",
+    "componentCode": "MEA-CMP-CU-ROD",
+    "componentName": "Copper cathode / rod",
+    "qtyPerUnit": "2.50",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  }
+]

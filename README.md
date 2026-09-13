@@ -28,6 +28,7 @@ Health: http://localhost:9090/health
 | `mercedes` | Premium braking modules |
 | `rheinpumpe` | European industrial pumps |
 | `ashraexports` | Indian knitwear exporter (Tirupur / Coimbatore / Noida) |
+| `meas` | Solder paste, cored wire, bulk metal (1 / 5 / 10 / 25 kg) |
 
 Each pack: `customers`, `products`, `bom`, `inventory`, `plants`, `workforce`.
 
@@ -56,6 +57,19 @@ https://<your-render-host>/feed/ashraexports/inventory.json
 https://<your-render-host>/feed/ashraexports/inventory.json?plant=ASH-IN-TPR
 https://<your-render-host>/feed/ashraexports/bom.json
 ```
+
+
+MEAS (solder paste / wire / metal by kg — no customer emails):
+
+```
+https://<your-render-host>/feed/meas/customers.json
+https://<your-render-host>/feed/meas/products.json
+https://<your-render-host>/feed/meas/inventory.json
+https://<your-render-host>/feed/meas/inventory.json?plant=MEA-US-HOU
+https://<your-render-host>/feed/meas/bom.json
+```
+
+Do not import plants or workforce through Connectors. Create plant structure in Syntra Plant Management.
 
 After you deploy on **Render**, replace `http://localhost:9090` with that HTTPS origin. Paste the URLs into Syntra **ERP import connectors** and use **Run now**. Plants and workforce for Ashra stay in the Syntra tenant seed — do not import those two modules.
 
