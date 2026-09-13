@@ -1,0 +1,262 @@
+[
+  {
+    "email": "priya.venkat@ashraexports-uat.example.com",
+    "firstName": "Priya",
+    "lastName": "Venkat",
+    "displayName": "Priya Venkat — PLANNING",
+    "plantCode": "ASH-IN-TPR",
+    "departmentCode": "PLANNING",
+    "role": "PLANNER",
+    "apmId": "ASHWF001"
+  },
+  {
+    "email": "karthik.subramaniam@ashraexports-uat.example.com",
+    "firstName": "Karthik",
+    "lastName": "Subramaniam",
+    "displayName": "Karthik Subramaniam — SALES",
+    "plantCode": "ASH-IN-TPR",
+    "departmentCode": "SALES",
+    "role": "SALES",
+    "apmId": "ASHWF002"
+  },
+  {
+    "email": "meena.rajendran@ashraexports-uat.example.com",
+    "firstName": "Meena",
+    "lastName": "Rajendran",
+    "displayName": "Meena Rajendran — MERCHANDISING",
+    "plantCode": "ASH-IN-TPR",
+    "departmentCode": "MERCHANDISING",
+    "role": "MERCHANDISER",
+    "apmId": "ASHWF003"
+  },
+  {
+    "email": "suresh.kumar@ashraexports-uat.example.com",
+    "firstName": "Suresh",
+    "lastName": "Kumar",
+    "displayName": "Suresh Kumar — CUTTING",
+    "plantCode": "ASH-IN-TPR",
+    "departmentCode": "CUTTING",
+    "role": "SUPERVISOR",
+    "apmId": "ASHWF004"
+  },
+  {
+    "email": "lakshmi.natarajan@ashraexports-uat.example.com",
+    "firstName": "Lakshmi",
+    "lastName": "Natarajan",
+    "displayName": "Lakshmi Natarajan — SEWING",
+    "plantCode": "ASH-IN-TPR",
+    "departmentCode": "SEWING",
+    "role": "OPERATOR",
+    "apmId": "ASHWF005"
+  },
+  {
+    "email": "arjun.mohan@ashraexports-uat.example.com",
+    "firstName": "Arjun",
+    "lastName": "Mohan",
+    "displayName": "Arjun Mohan — SEWING",
+    "plantCode": "ASH-IN-TPR",
+    "departmentCode": "SEWING",
+    "role": "OPERATOR",
+    "apmId": "ASHWF006"
+  },
+  {
+    "email": "fatima.begum@ashraexports-uat.example.com",
+    "firstName": "Fatima",
+    "lastName": "Begum",
+    "displayName": "Fatima Begum — FINISHING",
+    "plantCode": "ASH-IN-TPR",
+    "departmentCode": "FINISHING",
+    "role": "OPERATOR",
+    "apmId": "ASHWF007"
+  },
+  {
+    "email": "ravi.selvam@ashraexports-uat.example.com",
+    "firstName": "Ravi",
+    "lastName": "Selvam",
+    "displayName": "Ravi Selvam — PACKING",
+    "plantCode": "ASH-IN-TPR",
+    "departmentCode": "PACKING",
+    "role": "OPERATOR",
+    "apmId": "ASHWF008"
+  },
+  {
+    "email": "divya.iyer@ashraexports-uat.example.com",
+    "firstName": "Divya",
+    "lastName": "Iyer",
+    "displayName": "Divya Iyer — QA",
+    "plantCode": "ASH-IN-TPR",
+    "departmentCode": "QA",
+    "role": "QA_INSPECTOR",
+    "apmId": "ASHWF009"
+  },
+  {
+    "email": "imran.khan@ashraexports-uat.example.com",
+    "firstName": "Imran",
+    "lastName": "Khan",
+    "displayName": "Imran Khan — DYEING",
+    "plantCode": "ASH-IN-CBE",
+    "departmentCode": "DYEING",
+    "role": "SUPERVISOR",
+    "apmId": "ASHWF010"
+  },
+  {
+    "email": "kavitha.ramesh@ashraexports-uat.example.com",
+    "firstName": "Kavitha",
+    "lastName": "Ramesh",
+    "displayName": "Kavitha Ramesh — WAREHOUSE",
+    "plantCode": "ASH-IN-CBE",
+    "departmentCode": "WAREHOUSE",
+    "role": "OPERATOR",
+    "apmId": "ASHWF011"
+  },
+  {
+    "email": "vikram.singh@ashraexports-uat.example.com",
+    "firstName": "Vikram",
+    "lastName": "Singh",
+    "displayName": "Vikram Singh — SEWING",
+    "plantCode": "ASH-IN-NCR",
+    "departmentCode": "SEWING",
+    "role": "SUPERVISOR",
+    "apmId": "ASHWF012"
+  },
+  {
+    "email": "anjali.sharma@ashraexports-uat.example.com",
+    "firstName": "Anjali",
+    "lastName": "Sharma",
+    "displayName": "Anjali Sharma — QA",
+    "plantCode": "ASH-IN-NCR",
+    "departmentCode": "QA",
+    "role": "QA_INSPECTOR",
+    "apmId": "ASHWF013"
+  },
+  {
+    "email": "deepak.yadav@ashraexports-uat.example.com",
+    "firstName": "Deepak",
+    "lastName": "Yadav",
+    "displayName": "Deepak Yadav — FINISHING",
+    "plantCode": "ASH-IN-NCR",
+    "departmentCode": "FINISHING",
+    "role": "OPERATOR",
+    "apmId": "ASHWF014"
+  },
+  {
+    "email": "line.ash-in-tpr.1@ashraexports-uat.example.com",
+    "firstName": "Line",
+    "lastName": "ASH-IN-TPR-1",
+    "displayName": "Ashra Exports Tirupur Knitwear CUTTING Op 1",
+    "plantCode": "ASH-IN-TPR",
+    "departmentCode": "CUTTING",
+    "role": "OPERATOR",
+    "apmId": "ASHWF015"
+  },
+  {
+    "email": "line.ash-in-tpr.2@ashraexports-uat.example.com",
+    "firstName": "Line",
+    "lastName": "ASH-IN-TPR-2",
+    "displayName": "Ashra Exports Tirupur Knitwear SEWING Op 2",
+    "plantCode": "ASH-IN-TPR",
+    "departmentCode": "SEWING",
+    "role": "OPERATOR",
+    "apmId": "ASHWF016"
+  },
+  {
+    "email": "line.ash-in-tpr.3@ashraexports-uat.example.com",
+    "firstName": "Line",
+    "lastName": "ASH-IN-TPR-3",
+    "displayName": "Ashra Exports Tirupur Knitwear QA Op 3",
+    "plantCode": "ASH-IN-TPR",
+    "departmentCode": "QA",
+    "role": "QA_INSPECTOR",
+    "apmId": "ASHWF017"
+  },
+  {
+    "email": "line.ash-in-tpr.4@ashraexports-uat.example.com",
+    "firstName": "Line",
+    "lastName": "ASH-IN-TPR-4",
+    "displayName": "Ashra Exports Tirupur Knitwear CUTTING Op 4",
+    "plantCode": "ASH-IN-TPR",
+    "departmentCode": "CUTTING",
+    "role": "OPERATOR",
+    "apmId": "ASHWF018"
+  },
+  {
+    "email": "line.ash-in-cbe.1@ashraexports-uat.example.com",
+    "firstName": "Line",
+    "lastName": "ASH-IN-CBE-1",
+    "displayName": "Ashra Exports Coimbatore Dyeing CUTTING Op 1",
+    "plantCode": "ASH-IN-CBE",
+    "departmentCode": "CUTTING",
+    "role": "OPERATOR",
+    "apmId": "ASHWF019"
+  },
+  {
+    "email": "line.ash-in-cbe.2@ashraexports-uat.example.com",
+    "firstName": "Line",
+    "lastName": "ASH-IN-CBE-2",
+    "displayName": "Ashra Exports Coimbatore Dyeing SEWING Op 2",
+    "plantCode": "ASH-IN-CBE",
+    "departmentCode": "SEWING",
+    "role": "OPERATOR",
+    "apmId": "ASHWF020"
+  },
+  {
+    "email": "line.ash-in-cbe.3@ashraexports-uat.example.com",
+    "firstName": "Line",
+    "lastName": "ASH-IN-CBE-3",
+    "displayName": "Ashra Exports Coimbatore Dyeing QA Op 3",
+    "plantCode": "ASH-IN-CBE",
+    "departmentCode": "QA",
+    "role": "QA_INSPECTOR",
+    "apmId": "ASHWF021"
+  },
+  {
+    "email": "line.ash-in-cbe.4@ashraexports-uat.example.com",
+    "firstName": "Line",
+    "lastName": "ASH-IN-CBE-4",
+    "displayName": "Ashra Exports Coimbatore Dyeing CUTTING Op 4",
+    "plantCode": "ASH-IN-CBE",
+    "departmentCode": "CUTTING",
+    "role": "OPERATOR",
+    "apmId": "ASHWF022"
+  },
+  {
+    "email": "line.ash-in-ncr.1@ashraexports-uat.example.com",
+    "firstName": "Line",
+    "lastName": "ASH-IN-NCR-1",
+    "displayName": "Ashra Exports Noida Woven CUTTING Op 1",
+    "plantCode": "ASH-IN-NCR",
+    "departmentCode": "CUTTING",
+    "role": "OPERATOR",
+    "apmId": "ASHWF023"
+  },
+  {
+    "email": "line.ash-in-ncr.2@ashraexports-uat.example.com",
+    "firstName": "Line",
+    "lastName": "ASH-IN-NCR-2",
+    "displayName": "Ashra Exports Noida Woven SEWING Op 2",
+    "plantCode": "ASH-IN-NCR",
+    "departmentCode": "SEWING",
+    "role": "OPERATOR",
+    "apmId": "ASHWF024"
+  },
+  {
+    "email": "line.ash-in-ncr.3@ashraexports-uat.example.com",
+    "firstName": "Line",
+    "lastName": "ASH-IN-NCR-3",
+    "displayName": "Ashra Exports Noida Woven QA Op 3",
+    "plantCode": "ASH-IN-NCR",
+    "departmentCode": "QA",
+    "role": "QA_INSPECTOR",
+    "apmId": "ASHWF025"
+  },
+  {
+    "email": "line.ash-in-ncr.4@ashraexports-uat.example.com",
+    "firstName": "Line",
+    "lastName": "ASH-IN-NCR-4",
+    "displayName": "Ashra Exports Noida Woven CUTTING Op 4",
+    "plantCode": "ASH-IN-NCR",
+    "departmentCode": "CUTTING",
+    "role": "OPERATOR",
+    "apmId": "ASHWF026"
+  }
+]

@@ -27,6 +27,7 @@ Health: http://localhost:9090/health
 | `brembo` | 2W braking (calipers, pads, pistons) |
 | `mercedes` | Premium braking modules |
 | `rheinpumpe` | European industrial pumps |
+| `ashraexports` | Indian knitwear exporter (Tirupur / Coimbatore / Noida) |
 
 Each pack: `customers`, `products`, `bom`, `inventory`, `plants`, `workforce`.
 
@@ -46,7 +47,17 @@ http://localhost:9090/feed/brembo/bom.json
 
 OData: `/odata/brembo/inventory`
 
-After you deploy (Render / Fly / etc.), replace `http://localhost:9090` with that HTTPS origin. Paste the URLs into Syntra **ERP import connectors** and use **Run now**.
+Ashra Exports (textile demo — use these in AWS sandbox connectors after Render deploy):
+
+```
+https://<your-render-host>/feed/ashraexports/customers.json
+https://<your-render-host>/feed/ashraexports/products.json
+https://<your-render-host>/feed/ashraexports/inventory.json
+https://<your-render-host>/feed/ashraexports/inventory.json?plant=ASH-IN-TPR
+https://<your-render-host>/feed/ashraexports/bom.json
+```
+
+After you deploy on **Render**, replace `http://localhost:9090` with that HTTPS origin. Paste the URLs into Syntra **ERP import connectors** and use **Run now**. Plants and workforce for Ashra stay in the Syntra tenant seed — do not import those two modules.
 
 ## Demo console (inventory + catalog)
 

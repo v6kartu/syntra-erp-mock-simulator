@@ -28,5 +28,6 @@ Current generated packs:
 - `brembo` — 2W braking systems
 - `mercedes` — premium braking modules
 - `rheinpumpe` — European industrial pumps (DE/CZ/ES/FR)
+- `ashraexports` — Indian knitwear exporter (Tirupur / Coimbatore / Noida)
 
 Feed URLs: `/feed/{orgId}/{module}.json` and optional `?plant={code}`.

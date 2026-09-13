@@ -1,0 +1,8 @@
+{
+  "scenario": "shortage",
+  "skuHints": [
+    "ASH-CMP-FAB-JSY180",
+    "ASH-CMP-FAB-FLC280",
+    "ASH-FG-TEE-BLK-M"
+  ]
+}

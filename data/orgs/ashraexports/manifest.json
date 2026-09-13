@@ -1,0 +1,60 @@
+{
+  "orgId": "ashraexports",
+  "displayName": "Ashra Exports Pvt Ltd (Knitwear UAT)",
+  "defaultCurrency": "USD",
+  "industry": "Textile / apparel export",
+  "plants": [
+    {
+      "code": "ASH-IN-TPR",
+      "name": "Ashra Exports Tirupur Knitwear",
+      "ianaTimezone": "Asia/Kolkata"
+    },
+    {
+      "code": "ASH-IN-CBE",
+      "name": "Ashra Exports Coimbatore Dyeing",
+      "ianaTimezone": "Asia/Kolkata"
+    },
+    {
+      "code": "ASH-IN-NCR",
+      "name": "Ashra Exports Noida Woven",
+      "ianaTimezone": "Asia/Kolkata"
+    }
+  ],
+  "modules": [
+    "customers",
+    "products",
+    "plants",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "importOrder": [
+    "plants",
+    "customers",
+    "products",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "productSkuPrefixes": [
+    "ASH-"
+  ],
+  "shortageSkus": [
+    "ASH-CMP-FAB-JSY180",
+    "ASH-CMP-FAB-FLC280",
+    "ASH-FG-TEE-BLK-M"
+  ],
+  "surgeSkus": [
+    "ASH-CMP-LBL-MAIN",
+    "ASH-CMP-POLYBAG"
+  ],
+  "connectorUrlsHint": {
+    "customers": "http://erp-import-simulator:9090/feed/ashraexports/customers.json",
+    "products": "http://erp-import-simulator:9090/feed/ashraexports/products.json",
+    "inventory": "http://erp-import-simulator:9090/feed/ashraexports/inventory.json",
+    "inventoryPlant": "http://erp-import-simulator:9090/feed/ashraexports/inventory.json?plant=ASH-IN-TPR",
+    "bom": "http://erp-import-simulator:9090/feed/ashraexports/bom.json",
+    "plants": "http://erp-import-simulator:9090/feed/ashraexports/plants.json",
+    "workforce": "http://erp-import-simulator:9090/feed/ashraexports/workforce.json"
+  }
+}

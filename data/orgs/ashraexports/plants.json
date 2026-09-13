@@ -1,0 +1,26 @@
+[
+  {
+    "code": "ASH-IN-TPR",
+    "name": "Ashra Exports Tirupur Knitwear",
+    "status": "ACTIVE",
+    "ianaTimezone": "Asia/Kolkata",
+    "city": "Tirupur",
+    "notes": "Cutting, sewing, packing — main garment plant"
+  },
+  {
+    "code": "ASH-IN-CBE",
+    "name": "Ashra Exports Coimbatore Dyeing",
+    "status": "ACTIVE",
+    "ianaTimezone": "Asia/Kolkata",
+    "city": "Coimbatore",
+    "notes": "Fabric store, dyeing, finishing of greige knits"
+  },
+  {
+    "code": "ASH-IN-NCR",
+    "name": "Ashra Exports Noida Woven",
+    "status": "ACTIVE",
+    "ianaTimezone": "Asia/Kolkata",
+    "city": "Noida",
+    "notes": "Woven bottoms, finishing, export packing for North India"
+  }
+]

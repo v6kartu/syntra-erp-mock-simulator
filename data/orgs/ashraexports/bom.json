@@ -1,0 +1,389 @@
+[
+  {
+    "parentProductId": "ASH-FG-POLO-NAVY-M",
+    "componentCode": "ASH-SUB-BODY-POLO",
+    "componentName": "Polo body cut-panel kit",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KIT"
+  },
+  {
+    "parentProductId": "ASH-FG-POLO-NAVY-M",
+    "componentCode": "ASH-SUB-TRIM-PACK",
+    "componentName": "Trim pack (labels + polybag)",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KIT"
+  },
+  {
+    "parentProductId": "ASH-FG-POLO-NAVY-M",
+    "componentCode": "ASH-CMP-FAB-PQ220",
+    "componentName": "Cotton pique 220gsm navy dye lot",
+    "qtyPerUnit": "1.45",
+    "level": "1",
+    "parentComponentCode": "ASH-SUB-BODY-POLO",
+    "qtyUom": "M"
+  },
+  {
+    "parentProductId": "ASH-FG-POLO-NAVY-M",
+    "componentCode": "ASH-CMP-RIB-1X1",
+    "componentName": "Rib 1x1 collar/cuff 2x2 cm",
+    "qtyPerUnit": "0.28",
+    "level": "1",
+    "parentComponentCode": "ASH-SUB-BODY-POLO",
+    "qtyUom": "M"
+  },
+  {
+    "parentProductId": "ASH-FG-POLO-NAVY-M",
+    "componentCode": "ASH-CMP-THREAD-CORE",
+    "componentName": "Core-spun sewing thread 40/2",
+    "qtyPerUnit": "0.04",
+    "level": "1",
+    "parentComponentCode": "ASH-SUB-BODY-POLO",
+    "qtyUom": "CONE"
+  },
+  {
+    "parentProductId": "ASH-FG-POLO-NAVY-M",
+    "componentCode": "ASH-CMP-LBL-MAIN",
+    "componentName": "Main woven label — Ashra / brand",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "ASH-SUB-TRIM-PACK",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-POLO-NAVY-M",
+    "componentCode": "ASH-CMP-LBL-CARE",
+    "componentName": "Care / composition label",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "ASH-SUB-TRIM-PACK",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-POLO-NAVY-M",
+    "componentCode": "ASH-CMP-POLYBAG",
+    "componentName": "Export polybag 30x40 with warning",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "ASH-SUB-TRIM-PACK",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-POLO-WHT-M",
+    "componentCode": "ASH-SUB-BODY-POLO",
+    "componentName": "Polo body cut-panel kit",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KIT"
+  },
+  {
+    "parentProductId": "ASH-FG-POLO-WHT-M",
+    "componentCode": "ASH-SUB-TRIM-PACK",
+    "componentName": "Trim pack (labels + polybag)",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KIT"
+  },
+  {
+    "parentProductId": "ASH-FG-POLO-WHT-M",
+    "componentCode": "ASH-CMP-FAB-PQ220-WHT",
+    "componentName": "Cotton pique 220gsm white",
+    "qtyPerUnit": "1.45",
+    "level": "1",
+    "parentComponentCode": "ASH-SUB-BODY-POLO",
+    "qtyUom": "M"
+  },
+  {
+    "parentProductId": "ASH-FG-POLO-WHT-M",
+    "componentCode": "ASH-CMP-RIB-1X1",
+    "componentName": "Rib 1x1 collar/cuff 2x2 cm",
+    "qtyPerUnit": "0.28",
+    "level": "1",
+    "parentComponentCode": "ASH-SUB-BODY-POLO",
+    "qtyUom": "M"
+  },
+  {
+    "parentProductId": "ASH-FG-POLO-WHT-M",
+    "componentCode": "ASH-CMP-THREAD-CORE",
+    "componentName": "Core-spun sewing thread 40/2",
+    "qtyPerUnit": "0.04",
+    "level": "1",
+    "parentComponentCode": "ASH-SUB-BODY-POLO",
+    "qtyUom": "CONE"
+  },
+  {
+    "parentProductId": "ASH-FG-POLO-WHT-M",
+    "componentCode": "ASH-CMP-LBL-MAIN",
+    "componentName": "Main woven label — Ashra / brand",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "ASH-SUB-TRIM-PACK",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-POLO-WHT-M",
+    "componentCode": "ASH-CMP-LBL-CARE",
+    "componentName": "Care / composition label",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "ASH-SUB-TRIM-PACK",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-POLO-WHT-M",
+    "componentCode": "ASH-CMP-POLYBAG",
+    "componentName": "Export polybag 30x40 with warning",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "ASH-SUB-TRIM-PACK",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-TEE-BLK-M",
+    "componentCode": "ASH-CMP-FAB-JSY180",
+    "componentName": "Cotton jersey 180gsm bleached",
+    "qtyPerUnit": "1.20",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "M"
+  },
+  {
+    "parentProductId": "ASH-FG-TEE-BLK-M",
+    "componentCode": "ASH-CMP-RIB-1X1",
+    "componentName": "Rib 1x1 collar/cuff 2x2 cm",
+    "qtyPerUnit": "0.12",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "M"
+  },
+  {
+    "parentProductId": "ASH-FG-TEE-BLK-M",
+    "componentCode": "ASH-CMP-THREAD-CORE",
+    "componentName": "Core-spun sewing thread 40/2",
+    "qtyPerUnit": "0.03",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "CONE"
+  },
+  {
+    "parentProductId": "ASH-FG-TEE-BLK-M",
+    "componentCode": "ASH-CMP-LBL-MAIN",
+    "componentName": "Main woven label — Ashra / brand",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-TEE-BLK-M",
+    "componentCode": "ASH-CMP-LBL-CARE",
+    "componentName": "Care / composition label",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-TEE-BLK-M",
+    "componentCode": "ASH-CMP-POLYBAG",
+    "componentName": "Export polybag 30x40 with warning",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-TEE-WHT-L",
+    "componentCode": "ASH-CMP-FAB-JSY180",
+    "componentName": "Cotton jersey 180gsm bleached",
+    "qtyPerUnit": "1.20",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "M"
+  },
+  {
+    "parentProductId": "ASH-FG-TEE-WHT-L",
+    "componentCode": "ASH-CMP-RIB-1X1",
+    "componentName": "Rib 1x1 collar/cuff 2x2 cm",
+    "qtyPerUnit": "0.12",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "M"
+  },
+  {
+    "parentProductId": "ASH-FG-TEE-WHT-L",
+    "componentCode": "ASH-CMP-THREAD-CORE",
+    "componentName": "Core-spun sewing thread 40/2",
+    "qtyPerUnit": "0.03",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "CONE"
+  },
+  {
+    "parentProductId": "ASH-FG-TEE-WHT-L",
+    "componentCode": "ASH-CMP-LBL-MAIN",
+    "componentName": "Main woven label — Ashra / brand",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-TEE-WHT-L",
+    "componentCode": "ASH-CMP-LBL-CARE",
+    "componentName": "Care / composition label",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-TEE-WHT-L",
+    "componentCode": "ASH-CMP-POLYBAG",
+    "componentName": "Export polybag 30x40 with warning",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-HDY-GRY-L",
+    "componentCode": "ASH-CMP-FAB-FLC280",
+    "componentName": "Cotton fleece 280gsm grey melange",
+    "qtyPerUnit": "1.85",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "M"
+  },
+  {
+    "parentProductId": "ASH-FG-HDY-GRY-L",
+    "componentCode": "ASH-CMP-RIB-1X1",
+    "componentName": "Rib 1x1 collar/cuff 2x2 cm",
+    "qtyPerUnit": "0.45",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "M"
+  },
+  {
+    "parentProductId": "ASH-FG-HDY-GRY-L",
+    "componentCode": "ASH-CMP-ZIP-YKK-REV",
+    "componentName": "YKK reverse coil zipper 60cm",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-HDY-GRY-L",
+    "componentCode": "ASH-CMP-CORD-5",
+    "componentName": "Drawcord 5mm peached",
+    "qtyPerUnit": "1.40",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "M"
+  },
+  {
+    "parentProductId": "ASH-FG-HDY-GRY-L",
+    "componentCode": "ASH-CMP-THREAD-CORE",
+    "componentName": "Core-spun sewing thread 40/2",
+    "qtyPerUnit": "0.06",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "CONE"
+  },
+  {
+    "parentProductId": "ASH-FG-HDY-GRY-L",
+    "componentCode": "ASH-CMP-LBL-MAIN",
+    "componentName": "Main woven label — Ashra / brand",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-HDY-GRY-L",
+    "componentCode": "ASH-CMP-LBL-CARE",
+    "componentName": "Care / composition label",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-HDY-GRY-L",
+    "componentCode": "ASH-CMP-POLYBAG",
+    "componentName": "Export polybag 30x40 with warning",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-SWTPNT-NVY-L",
+    "componentCode": "ASH-CMP-FAB-FLC280",
+    "componentName": "Cotton fleece 280gsm grey melange",
+    "qtyPerUnit": "1.10",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "M"
+  },
+  {
+    "parentProductId": "ASH-FG-SWTPNT-NVY-L",
+    "componentCode": "ASH-CMP-ELAS-WB",
+    "componentName": "Waistband elastic 32mm",
+    "qtyPerUnit": "0.85",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "M"
+  },
+  {
+    "parentProductId": "ASH-FG-SWTPNT-NVY-L",
+    "componentCode": "ASH-CMP-CORD-5",
+    "componentName": "Drawcord 5mm peached",
+    "qtyPerUnit": "1.20",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "M"
+  },
+  {
+    "parentProductId": "ASH-FG-SWTPNT-NVY-L",
+    "componentCode": "ASH-CMP-THREAD-CORE",
+    "componentName": "Core-spun sewing thread 40/2",
+    "qtyPerUnit": "0.04",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "CONE"
+  },
+  {
+    "parentProductId": "ASH-FG-SWTPNT-NVY-L",
+    "componentCode": "ASH-CMP-LBL-MAIN",
+    "componentName": "Main woven label — Ashra / brand",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-SWTPNT-NVY-L",
+    "componentCode": "ASH-CMP-LBL-CARE",
+    "componentName": "Care / composition label",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "ASH-FG-SWTPNT-NVY-L",
+    "componentCode": "ASH-CMP-POLYBAG",
+    "componentName": "Export polybag 30x40 with warning",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  }
+]
