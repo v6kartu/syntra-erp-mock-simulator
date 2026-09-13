@@ -34,3 +34,16 @@ Only four modules. Do not import plants or workforce through Connectors.
 4. **BOM** → `.../feed/meas/bom.json`
 
 Create plants and shopfloors in Plant Management yourself. Copy this folder to the Render simulator repo if you host feeds there.
+
+## Demo orders (why Planning is not a wall of orange)
+
+`orders.json` is a demo recipe served at `.../feed/meas/orders.json`. It is **not** imported by a Syntra connector (there is no Orders import module today). Use it as a checklist when creating orders manually in the CRM UI so the Planning board shows a real mix:
+
+| Row prefix | Expected Planning color | Recipe |
+|---|---|---|
+| `MEA-SO-1xxx` | READY (green) | Comfortable promise (+22..35 d), non-shortage SKUs, FG in stock. |
+| `MEA-SO-2xxx` | PARTIAL (amber) | Shortage SKUs (`MEA-CMP-AG-PWD`, `MEA-FG-WIR-SAC-10KG`, `MEA-FG-MTL-MIX-5KG`). |
+| `MEA-SO-3xxx` | AT_RISK (orange) | Tight promise (+3..7 d), oversized qty. |
+| `MEA-SO-4xxx` | BLOCKED (red) | `status = ON_HOLD`. |
+
+Each row lists `customerApmId`, `sku`, `quantity` (kg), `promiseDate` (rolls forward every regen so it stays current), and `expectedReadiness` for reference. Regenerate any time with `npm run sync-orgs -- --org meas`.

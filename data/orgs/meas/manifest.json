@@ -26,7 +26,8 @@
     "plants",
     "workforce",
     "inventory",
-    "bom"
+    "bom",
+    "orders"
   ],
   "importOrder": [
     "plants",
@@ -34,7 +35,8 @@
     "products",
     "workforce",
     "inventory",
-    "bom"
+    "bom",
+    "orders"
   ],
   "productSkuPrefixes": [
     "MEA-"
@@ -48,6 +50,11 @@
     "MEA-CMP-SN-INGOT",
     "MEA-FG-WIR-SAC-1KG"
   ],
+  "ordersFeed": {
+    "url": "http://erp-import-simulator:9090/feed/meas/orders.json",
+    "importMode": "manual-crm-create",
+    "readiness": "expectedReadiness field on each row hints the target Planning color."
+  },
   "connectorUrlsHint": {
     "customers": "http://erp-import-simulator:9090/feed/meas/customers.json",
     "products": "http://erp-import-simulator:9090/feed/meas/products.json",
@@ -55,6 +62,7 @@
     "inventoryPlant": "http://erp-import-simulator:9090/feed/meas/inventory.json?plant=MEA-US-HOU",
     "bom": "http://erp-import-simulator:9090/feed/meas/bom.json",
     "plants": "http://erp-import-simulator:9090/feed/meas/plants.json",
-    "workforce": "http://erp-import-simulator:9090/feed/meas/workforce.json"
+    "workforce": "http://erp-import-simulator:9090/feed/meas/workforce.json",
+    "orders": "http://erp-import-simulator:9090/feed/meas/orders.json"
   }
 }

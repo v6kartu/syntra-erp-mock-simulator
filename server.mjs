@@ -31,7 +31,7 @@ const dataDir = path.join(__dirname, 'data');
 const orgsDir = path.join(dataDir, 'orgs');
 const publicDir = path.join(__dirname, 'public');
 
-const CORE_MODULES = ['customers', 'products', 'bom', 'inventory', 'plants', 'workforce'];
+const CORE_MODULES = ['customers', 'products', 'bom', 'inventory', 'plants', 'workforce', 'orders'];
 const LEGACY_CORE = ['products', 'inventory', 'bom', 'customers'];
 const DEFAULT_ORG = (process.env.DEFAULT_ORG || 'valeo').trim();
 
