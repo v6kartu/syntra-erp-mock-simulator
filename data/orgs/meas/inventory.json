@@ -2,240 +2,240 @@
   {
     "sku": "MEA-CMP-SN-INGOT",
     "itemName": "Tin ingot 99.9%",
-    "description": "MEA-ID-BTM YARD stock for MEA-CMP-SN-INGOT (kg)",
+    "description": "MEA-ID-BTM TANK stock for MEA-CMP-SN-INGOT (kg)",
     "availableQuantity": "8200",
     "unitCost": "22.40",
     "reorderPoint": "4000",
     "economicOrderQty": "8000",
     "uom": "KG",
     "plant": "MEA-ID-BTM",
-    "storageLocation": "YARD",
-    "lotNumber": "L-BTM-NINGOT-YARD",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "TANK",
+    "lotNumber": "L-BTM-NINGOT-TANK",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-CMP-SN-INGOT",
     "itemName": "Tin ingot 99.9%",
-    "description": "MEA-US-HOU PIPE stock for MEA-CMP-SN-INGOT (kg)",
+    "description": "MEA-US-HOU TANK stock for MEA-CMP-SN-INGOT (kg)",
     "availableQuantity": "2400",
     "unitCost": "22.40",
     "reorderPoint": "4000",
     "economicOrderQty": "8000",
     "uom": "KG",
     "plant": "MEA-US-HOU",
-    "storageLocation": "PIPE",
-    "lotNumber": "L-HOU-NINGOT-PIPE",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "TANK",
+    "lotNumber": "L-HOU-NINGOT-TANK",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-CMP-SN-INGOT",
     "itemName": "Tin ingot 99.9%",
-    "description": "MEA-AE-JAL PIPE stock for MEA-CMP-SN-INGOT (kg)",
+    "description": "MEA-AE-JAL TANK stock for MEA-CMP-SN-INGOT (kg)",
     "availableQuantity": "1800",
     "unitCost": "22.40",
     "reorderPoint": "4000",
     "economicOrderQty": "8000",
     "uom": "KG",
     "plant": "MEA-AE-JAL",
-    "storageLocation": "PIPE",
-    "lotNumber": "L-JAL-NINGOT-PIPE",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "TANK",
+    "lotNumber": "L-JAL-NINGOT-TANK",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-CMP-AG-PWD",
     "itemName": "Silver powder 99.95%",
-    "description": "MEA-US-HOU WELD stock for MEA-CMP-AG-PWD (kg)",
+    "description": "MEA-US-HOU COLD stock for MEA-CMP-AG-PWD (kg)",
     "availableQuantity": "28",
     "unitCost": "740.00",
     "reorderPoint": "40",
     "economicOrderQty": "80",
     "uom": "KG",
     "plant": "MEA-US-HOU",
-    "storageLocation": "WELD",
-    "lotNumber": "L-HOU-PAGPWD-WELD",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "COLD",
+    "lotNumber": "L-HOU-PAGPWD-COLD",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-CMP-AG-PWD",
     "itemName": "Silver powder 99.95%",
-    "description": "MEA-AE-JAL WELD stock for MEA-CMP-AG-PWD (kg)",
+    "description": "MEA-AE-JAL COLD stock for MEA-CMP-AG-PWD (kg)",
     "availableQuantity": "12",
     "unitCost": "740.00",
     "reorderPoint": "40",
     "economicOrderQty": "80",
     "uom": "KG",
     "plant": "MEA-AE-JAL",
-    "storageLocation": "WELD",
-    "lotNumber": "L-JAL-PAGPWD-WELD",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "COLD",
+    "lotNumber": "L-JAL-PAGPWD-COLD",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-CMP-CU-ROD",
     "itemName": "Copper cathode / rod",
-    "description": "MEA-ID-BTM YARD stock for MEA-CMP-CU-ROD (kg)",
+    "description": "MEA-ID-BTM TANK stock for MEA-CMP-CU-ROD (kg)",
     "availableQuantity": "4100",
     "unitCost": "7.80",
     "reorderPoint": "1500",
     "economicOrderQty": "3000",
     "uom": "KG",
     "plant": "MEA-ID-BTM",
-    "storageLocation": "YARD",
-    "lotNumber": "L-BTM-PCUROD-YARD",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "TANK",
+    "lotNumber": "L-BTM-PCUROD-TANK",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-CMP-CU-ROD",
     "itemName": "Copper cathode / rod",
-    "description": "MEA-AE-JAL PIPE stock for MEA-CMP-CU-ROD (kg)",
+    "description": "MEA-AE-JAL TANK stock for MEA-CMP-CU-ROD (kg)",
     "availableQuantity": "900",
     "unitCost": "7.80",
     "reorderPoint": "1500",
     "economicOrderQty": "3000",
     "uom": "KG",
     "plant": "MEA-AE-JAL",
-    "storageLocation": "PIPE",
-    "lotNumber": "L-JAL-PCUROD-PIPE",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "TANK",
+    "lotNumber": "L-JAL-PCUROD-TANK",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-CMP-FLUX-ROS",
     "itemName": "Rosin flux concentrate",
-    "description": "MEA-US-HOU WELD stock for MEA-CMP-FLUX-ROS (kg)",
+    "description": "MEA-US-HOU DRUM stock for MEA-CMP-FLUX-ROS (kg)",
     "availableQuantity": "640",
     "unitCost": "3.90",
     "reorderPoint": "400",
     "economicOrderQty": "800",
     "uom": "KG",
     "plant": "MEA-US-HOU",
-    "storageLocation": "WELD",
-    "lotNumber": "L-HOU-LUXROS-WELD",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "DRUM",
+    "lotNumber": "L-HOU-LUXROS-DRUM",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-CMP-FLUX-ROS",
     "itemName": "Rosin flux concentrate",
-    "description": "MEA-AE-JAL WELD stock for MEA-CMP-FLUX-ROS (kg)",
+    "description": "MEA-AE-JAL DRUM stock for MEA-CMP-FLUX-ROS (kg)",
     "availableQuantity": "420",
     "unitCost": "3.90",
     "reorderPoint": "400",
     "economicOrderQty": "800",
     "uom": "KG",
     "plant": "MEA-AE-JAL",
-    "storageLocation": "WELD",
-    "lotNumber": "L-JAL-LUXROS-WELD",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "DRUM",
+    "lotNumber": "L-JAL-LUXROS-DRUM",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-CMP-FLUX-NC",
     "itemName": "No-clean flux vehicle",
-    "description": "MEA-US-HOU WELD stock for MEA-CMP-FLUX-NC (kg)",
+    "description": "MEA-US-HOU DRUM stock for MEA-CMP-FLUX-NC (kg)",
     "availableQuantity": "380",
     "unitCost": "5.20",
     "reorderPoint": "300",
     "economicOrderQty": "600",
     "uom": "KG",
     "plant": "MEA-US-HOU",
-    "storageLocation": "WELD",
-    "lotNumber": "L-HOU-FLUXNC-WELD",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "DRUM",
+    "lotNumber": "L-HOU-FLUXNC-DRUM",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-CMP-FLUX-NC",
     "itemName": "No-clean flux vehicle",
-    "description": "MEA-AE-JAL WELD stock for MEA-CMP-FLUX-NC (kg)",
+    "description": "MEA-AE-JAL DRUM stock for MEA-CMP-FLUX-NC (kg)",
     "availableQuantity": "210",
     "unitCost": "5.20",
     "reorderPoint": "300",
     "economicOrderQty": "600",
     "uom": "KG",
     "plant": "MEA-AE-JAL",
-    "storageLocation": "WELD",
-    "lotNumber": "L-JAL-FLUXNC-WELD",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "DRUM",
+    "lotNumber": "L-JAL-FLUXNC-DRUM",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-CMP-PB-INGOT",
     "itemName": "Lead (UAT restricted lot)",
-    "description": "MEA-US-HOU YARD stock for MEA-CMP-PB-INGOT (kg)",
+    "description": "MEA-US-HOU TANK stock for MEA-CMP-PB-INGOT (kg)",
     "availableQuantity": "220",
     "unitCost": "1.55",
     "reorderPoint": "200",
     "economicOrderQty": "400",
     "uom": "KG",
     "plant": "MEA-US-HOU",
-    "storageLocation": "YARD",
-    "lotNumber": "L-HOU-BINGOT-YARD",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "TANK",
+    "lotNumber": "L-HOU-BINGOT-TANK",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-CMP-PB-INGOT",
     "itemName": "Lead (UAT restricted lot)",
-    "description": "MEA-ID-BTM YARD stock for MEA-CMP-PB-INGOT (kg)",
+    "description": "MEA-ID-BTM TANK stock for MEA-CMP-PB-INGOT (kg)",
     "availableQuantity": "90",
     "unitCost": "1.55",
     "reorderPoint": "200",
     "economicOrderQty": "400",
     "uom": "KG",
     "plant": "MEA-ID-BTM",
-    "storageLocation": "YARD",
-    "lotNumber": "L-BTM-BINGOT-YARD",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "TANK",
+    "lotNumber": "L-BTM-BINGOT-TANK",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-FG-PST-SAC-1KG",
     "itemName": "SAC305 solder paste 1 kg jar",
-    "description": "MEA-US-HOU FG stock for MEA-FG-PST-SAC-1KG (kg)",
+    "description": "MEA-US-HOU COLD stock for MEA-FG-PST-SAC-1KG (kg)",
     "availableQuantity": "120",
     "unitCost": "52.00",
     "reorderPoint": "0",
     "economicOrderQty": "0",
     "uom": "KG",
     "plant": "MEA-US-HOU",
-    "storageLocation": "FG",
-    "lotNumber": "L-HOU-SAC1KG-FG",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "COLD",
+    "lotNumber": "L-HOU-SAC1KG-COLD",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-FG-PST-SAC-5KG",
     "itemName": "SAC305 solder paste 5 kg pail",
-    "description": "MEA-US-HOU FG stock for MEA-FG-PST-SAC-5KG (kg)",
+    "description": "MEA-US-HOU COLD stock for MEA-FG-PST-SAC-5KG (kg)",
     "availableQuantity": "40",
     "unitCost": "47.00",
     "reorderPoint": "0",
     "economicOrderQty": "0",
     "uom": "KG",
     "plant": "MEA-US-HOU",
-    "storageLocation": "FG",
-    "lotNumber": "L-HOU-SAC5KG-FG",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "COLD",
+    "lotNumber": "L-HOU-SAC5KG-COLD",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-FG-PST-SN63-1KG",
     "itemName": "Sn63 solder paste 1 kg jar",
-    "description": "MEA-US-HOU FG stock for MEA-FG-PST-SN63-1KG (kg)",
+    "description": "MEA-US-HOU COLD stock for MEA-FG-PST-SN63-1KG (kg)",
     "availableQuantity": "80",
     "unitCost": "26.00",
     "reorderPoint": "0",
     "economicOrderQty": "0",
     "uom": "KG",
     "plant": "MEA-US-HOU",
-    "storageLocation": "FG",
-    "lotNumber": "L-HOU-N631KG-FG",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "COLD",
+    "lotNumber": "L-HOU-N631KG-COLD",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-FG-PST-SN63-5KG",
     "itemName": "Sn63 solder paste 5 kg pail",
-    "description": "MEA-US-HOU FG stock for MEA-FG-PST-SN63-5KG (kg)",
+    "description": "MEA-US-HOU COLD stock for MEA-FG-PST-SN63-5KG (kg)",
     "availableQuantity": "25",
     "unitCost": "23.00",
     "reorderPoint": "0",
     "economicOrderQty": "0",
     "uom": "KG",
     "plant": "MEA-US-HOU",
-    "storageLocation": "FG",
-    "lotNumber": "L-HOU-N635KG-FG",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "storageLocation": "COLD",
+    "lotNumber": "L-HOU-N635KG-COLD",
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-FG-WIR-SAC-1KG",
@@ -249,7 +249,7 @@
     "plant": "MEA-AE-JAL",
     "storageLocation": "FG",
     "lotNumber": "L-JAL-SAC1KG-FG",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-FG-WIR-SAC-5KG",
@@ -263,7 +263,7 @@
     "plant": "MEA-AE-JAL",
     "storageLocation": "FG",
     "lotNumber": "L-JAL-SAC5KG-FG",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-FG-WIR-SAC-10KG",
@@ -277,7 +277,7 @@
     "plant": "MEA-AE-JAL",
     "storageLocation": "FG",
     "lotNumber": "L-JAL-AC10KG-FG",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-FG-WIR-SN63-1KG",
@@ -291,7 +291,7 @@
     "plant": "MEA-AE-JAL",
     "storageLocation": "FG",
     "lotNumber": "L-JAL-N631KG-FG",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-FG-WIR-SN63-5KG",
@@ -305,7 +305,7 @@
     "plant": "MEA-AE-JAL",
     "storageLocation": "FG",
     "lotNumber": "L-JAL-N635KG-FG",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-FG-MTL-SN-1KG",
@@ -319,7 +319,7 @@
     "plant": "MEA-ID-BTM",
     "storageLocation": "FG",
     "lotNumber": "L-BTM-LSN1KG-FG",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-FG-MTL-SN-5KG",
@@ -333,7 +333,7 @@
     "plant": "MEA-ID-BTM",
     "storageLocation": "FG",
     "lotNumber": "L-BTM-LSN5KG-FG",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-FG-MTL-CU-5KG",
@@ -347,7 +347,7 @@
     "plant": "MEA-ID-BTM",
     "storageLocation": "FG",
     "lotNumber": "L-BTM-LCU5KG-FG",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-FG-MTL-CU-25KG",
@@ -361,7 +361,7 @@
     "plant": "MEA-ID-BTM",
     "storageLocation": "FG",
     "lotNumber": "L-BTM-CU25KG-FG",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   },
   {
     "sku": "MEA-FG-MTL-MIX-5KG",
@@ -375,6 +375,6 @@
     "plant": "MEA-ID-BTM",
     "storageLocation": "FG",
     "lotNumber": "L-BTM-MIX5KG-FG",
-    "lastUpdated": "2026-09-13T15:09:28.990Z"
+    "lastUpdated": "2026-09-20T09:26:49.991Z"
   }
 ]

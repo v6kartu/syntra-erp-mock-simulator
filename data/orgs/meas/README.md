@@ -1,16 +1,19 @@
 # MEAS — bulk solder, wire, and metal (kg)
 
-Fictional UAT pack for **MEAS**. Sold by weight: 1 kg jars, 5 kg pails, 10 kg reels, 25 kg metal lots. No tenant seed. Customer rows have **no email**.
+Fictional **SME solder house** UAT pack. Houston blends paste, Jebel Ali draws wire, Batam mills metal. Sold by weight: 1 kg jars, 5 kg pails, 10 kg reels. Customer rows have **no email**.
+
+Full manual UAT script: [`docs/uat-meas-solder-sme.md`](../../../../docs/uat-meas-solder-sme.md).
 
 ## What is in the feed
 
 | Piece | Meaning |
 |---|---|
 | Plants | Houston blend/pack, Jebel Ali wire draw, Batam metal mill |
-| Customers | EMS / auto / metal service sold-tos + quay ship-tos (no email) |
+| Customers | EMS / auto / metal service sold-tos + dock ship-tos (no email) |
 | SKUs | Tin, silver, copper, flux; SAC305 / Sn63 alloy; paste, wire, plate packs |
-| UOM | **KG** on inventory and pack SKUs |
-| BOM | Alloy from metals; paste/wire = alloy + flux by kg; metal packs = kg of tin/copper |
+| UOM | **KG** |
+| Lots | TANK (metals), DRUM (flux), COLD (Ag + paste), FG (wire/metal packs) |
+| BOM | Alloy from metals; paste/wire = alloy + flux by kg |
 
 **Shortage SKUs (tick these):** `MEA-CMP-AG-PWD` (silver), `MEA-FG-WIR-SAC-10KG` (10 kg reel), `MEA-FG-MTL-MIX-5KG` (mixed offcut).
 
