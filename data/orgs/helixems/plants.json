@@ -1,0 +1,26 @@
+[
+  {
+    "code": "HLX-CN-SZN",
+    "name": "Helix Shenzhen SMT",
+    "status": "ACTIVE",
+    "ianaTimezone": "Asia/Shanghai",
+    "city": "Shenzhen",
+    "notes": "Two SMT lines, dry cabinet, incoming ICT"
+  },
+  {
+    "code": "HLX-MY-PEN",
+    "name": "Helix Penang box-build",
+    "status": "ACTIVE",
+    "ianaTimezone": "Asia/Kuala_Lumpur",
+    "city": "Penang",
+    "notes": "Housing, pack, and ship to ISP / OEM"
+  },
+  {
+    "code": "HLX-US-AUS",
+    "name": "Helix Austin NPI",
+    "status": "ACTIVE",
+    "ianaTimezone": "America/Chicago",
+    "city": "Austin",
+    "notes": "New-product introduction and first-article ICT"
+  }
+]

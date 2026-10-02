@@ -1,0 +1,8 @@
+{
+  "scenario": "shortage",
+  "skuHints": [
+    "PLN-CMP-REEL-58",
+    "PLN-CMP-REEL-WF70",
+    "PLN-FG-EXBK-A4-80"
+  ]
+}

@@ -30,5 +30,8 @@ Current generated packs:
 - `rheinpumpe` — European industrial pumps (DE/CZ/ES/FR)
 - `ashraexports` — Indian knitwear exporter (Tirupur / Coimbatore / Noida)
 - `meas` — MEAS solder paste, cored wire, and bulk metal (kg packs)
+- `helixems` — consumer / industrial EMS (routers, IoT, MCU allocation)
+- `paperlane` — stationery / paper converting (school books, copier reams)
+- `trailhaus` — sporting-goods retail brand (DCs, stores, marketplace)
 
 Feed URLs: `/feed/{orgId}/{module}.json` and optional `?plant={code}`.

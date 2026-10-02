@@ -1,0 +1,26 @@
+[
+  {
+    "code": "PLN-IN-PUN",
+    "name": "Paperlane Pune mill",
+    "status": "ACTIVE",
+    "ianaTimezone": "Asia/Kolkata",
+    "city": "Pune",
+    "notes": "Woodfree reels, remaining kg, moisture"
+  },
+  {
+    "code": "PLN-UG-KLA",
+    "name": "Paperlane Kampala converting",
+    "status": "ACTIVE",
+    "ianaTimezone": "Africa/Kampala",
+    "city": "Kampala",
+    "notes": "Sheeting, stitching, ruling, school-term pack"
+  },
+  {
+    "code": "PLN-KE-NBO",
+    "name": "Paperlane Nairobi trade DC",
+    "status": "ACTIVE",
+    "ianaTimezone": "Africa/Nairobi",
+    "city": "Nairobi",
+    "notes": "Office reams and envelopes for trade"
+  }
+]

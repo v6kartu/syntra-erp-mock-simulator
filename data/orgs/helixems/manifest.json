@@ -1,0 +1,60 @@
+{
+  "orgId": "helixems",
+  "displayName": "Helix EMS (consumer / industrial electronics)",
+  "defaultCurrency": "USD",
+  "industry": "ELECTRONICS",
+  "plants": [
+    {
+      "code": "HLX-CN-SZN",
+      "name": "Helix Shenzhen SMT",
+      "ianaTimezone": "Asia/Shanghai"
+    },
+    {
+      "code": "HLX-MY-PEN",
+      "name": "Helix Penang box-build",
+      "ianaTimezone": "Asia/Kuala_Lumpur"
+    },
+    {
+      "code": "HLX-US-AUS",
+      "name": "Helix Austin NPI",
+      "ianaTimezone": "America/Chicago"
+    }
+  ],
+  "modules": [
+    "customers",
+    "products",
+    "plants",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "importOrder": [
+    "plants",
+    "customers",
+    "products",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "productSkuPrefixes": [
+    "HLX-"
+  ],
+  "shortageSkus": [
+    "HLX-CMP-MCU-M33",
+    "HLX-CMP-DRAM-1G",
+    "HLX-FG-RTR-AX1800"
+  ],
+  "surgeSkus": [
+    "HLX-CMP-PMIC-BUCK",
+    "HLX-CMP-PSU-12V"
+  ],
+  "connectorUrlsHint": {
+    "customers": "http://erp-import-simulator:9090/feed/helixems/customers.json",
+    "products": "http://erp-import-simulator:9090/feed/helixems/products.json",
+    "inventory": "http://erp-import-simulator:9090/feed/helixems/inventory.json",
+    "inventoryPlant": "http://erp-import-simulator:9090/feed/helixems/inventory.json?plant=HLX-CN-SZN",
+    "bom": "http://erp-import-simulator:9090/feed/helixems/bom.json",
+    "plants": "http://erp-import-simulator:9090/feed/helixems/plants.json",
+    "workforce": "http://erp-import-simulator:9090/feed/helixems/workforce.json"
+  }
+}

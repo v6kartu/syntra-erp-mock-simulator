@@ -1,0 +1,26 @@
+[
+  {
+    "code": "TRL-FR-LYS",
+    "name": "Trailhaus Lyon EMEA DC",
+    "status": "ACTIVE",
+    "ianaTimezone": "Europe/Paris",
+    "city": "Lyon",
+    "notes": "Primary inbound from CMT / footwear OEM"
+  },
+  {
+    "code": "TRL-DE-DUI",
+    "name": "Trailhaus Duisburg DC",
+    "status": "ACTIVE",
+    "ianaTimezone": "Europe/Berlin",
+    "city": "Duisburg",
+    "notes": "DACH store replenishment"
+  },
+  {
+    "code": "TRL-ES-BCN",
+    "name": "Trailhaus Barcelona DC",
+    "status": "ACTIVE",
+    "ianaTimezone": "Europe/Madrid",
+    "city": "Barcelona",
+    "notes": "Iberia + marketplace fulfilment"
+  }
+]

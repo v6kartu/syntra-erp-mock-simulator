@@ -1,0 +1,83 @@
+[
+  {
+    "parentProductId": "PLN-FG-EXBK-A4-80",
+    "componentCode": "PLN-CMP-REEL-58",
+    "componentName": "Creamwove reel 58gsm",
+    "qtyPerUnit": "0.085",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "PLN-FG-EXBK-A4-80",
+    "componentCode": "PLN-CMP-COVER-ART",
+    "componentName": "Cover artboard 230gsm",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "PLN-FG-EXBK-A4-80",
+    "componentCode": "PLN-CMP-WIRE-STCH",
+    "componentName": "Stitching wire 20kg coil",
+    "qtyPerUnit": "0.004",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "PLN-FG-EXBK-A5-40",
+    "componentCode": "PLN-CMP-REEL-58",
+    "componentName": "Creamwove reel 58gsm",
+    "qtyPerUnit": "0.038",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "PLN-FG-EXBK-A5-40",
+    "componentCode": "PLN-CMP-COVER-ART",
+    "componentName": "Cover artboard 230gsm",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "PLN-FG-COPY-A4-80G",
+    "componentCode": "PLN-CMP-REEL-WF80",
+    "componentName": "Woodfree reel 80gsm",
+    "qtyPerUnit": "2.45",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "PLN-FG-PAD-A4-RULE",
+    "componentCode": "PLN-CMP-REEL-WF70",
+    "componentName": "Woodfree reel 70gsm",
+    "qtyPerUnit": "0.32",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "PLN-FG-PAD-A4-RULE",
+    "componentCode": "PLN-CMP-GLUE-PVA",
+    "componentName": "PVA pad glue 25kg",
+    "qtyPerUnit": "0.012",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  },
+  {
+    "parentProductId": "PLN-FG-ENV-C5",
+    "componentCode": "PLN-CMP-REEL-WF70",
+    "componentName": "Woodfree reel 70gsm",
+    "qtyPerUnit": "1.8",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "KG"
+  }
+]

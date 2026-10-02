@@ -1,0 +1,60 @@
+{
+  "orgId": "trailhaus",
+  "displayName": "Trailhaus (sporting-goods retail brand)",
+  "defaultCurrency": "EUR",
+  "industry": "RETAIL",
+  "plants": [
+    {
+      "code": "TRL-FR-LYS",
+      "name": "Trailhaus Lyon EMEA DC",
+      "ianaTimezone": "Europe/Paris"
+    },
+    {
+      "code": "TRL-DE-DUI",
+      "name": "Trailhaus Duisburg DC",
+      "ianaTimezone": "Europe/Berlin"
+    },
+    {
+      "code": "TRL-ES-BCN",
+      "name": "Trailhaus Barcelona DC",
+      "ianaTimezone": "Europe/Madrid"
+    }
+  ],
+  "modules": [
+    "customers",
+    "products",
+    "plants",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "importOrder": [
+    "plants",
+    "customers",
+    "products",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "productSkuPrefixes": [
+    "TRL-"
+  ],
+  "shortageSkus": [
+    "TRL-FG-TRAIL-SHOE-42",
+    "TRL-FG-TRAIL-SHOE-43",
+    "TRL-FG-RUN-JKT-BLK-M"
+  ],
+  "surgeSkus": [
+    "TRL-FG-BOTTLE-600",
+    "TRL-FG-TRAIN-TEE-WHT-M"
+  ],
+  "connectorUrlsHint": {
+    "customers": "http://erp-import-simulator:9090/feed/trailhaus/customers.json",
+    "products": "http://erp-import-simulator:9090/feed/trailhaus/products.json",
+    "inventory": "http://erp-import-simulator:9090/feed/trailhaus/inventory.json",
+    "inventoryPlant": "http://erp-import-simulator:9090/feed/trailhaus/inventory.json?plant=TRL-FR-LYS",
+    "bom": "http://erp-import-simulator:9090/feed/trailhaus/bom.json",
+    "plants": "http://erp-import-simulator:9090/feed/trailhaus/plants.json",
+    "workforce": "http://erp-import-simulator:9090/feed/trailhaus/workforce.json"
+  }
+}

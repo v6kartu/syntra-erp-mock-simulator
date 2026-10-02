@@ -1,0 +1,60 @@
+{
+  "orgId": "paperlane",
+  "displayName": "Paperlane (stationery / paper converting)",
+  "defaultCurrency": "USD",
+  "industry": "PAPER",
+  "plants": [
+    {
+      "code": "PLN-IN-PUN",
+      "name": "Paperlane Pune mill",
+      "ianaTimezone": "Asia/Kolkata"
+    },
+    {
+      "code": "PLN-UG-KLA",
+      "name": "Paperlane Kampala converting",
+      "ianaTimezone": "Africa/Kampala"
+    },
+    {
+      "code": "PLN-KE-NBO",
+      "name": "Paperlane Nairobi trade DC",
+      "ianaTimezone": "Africa/Nairobi"
+    }
+  ],
+  "modules": [
+    "customers",
+    "products",
+    "plants",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "importOrder": [
+    "plants",
+    "customers",
+    "products",
+    "workforce",
+    "inventory",
+    "bom"
+  ],
+  "productSkuPrefixes": [
+    "PLN-"
+  ],
+  "shortageSkus": [
+    "PLN-CMP-REEL-58",
+    "PLN-CMP-REEL-WF70",
+    "PLN-FG-EXBK-A4-80"
+  ],
+  "surgeSkus": [
+    "PLN-CMP-COVER-ART",
+    "PLN-FG-ENV-C5"
+  ],
+  "connectorUrlsHint": {
+    "customers": "http://erp-import-simulator:9090/feed/paperlane/customers.json",
+    "products": "http://erp-import-simulator:9090/feed/paperlane/products.json",
+    "inventory": "http://erp-import-simulator:9090/feed/paperlane/inventory.json",
+    "inventoryPlant": "http://erp-import-simulator:9090/feed/paperlane/inventory.json?plant=PLN-UG-KLA",
+    "bom": "http://erp-import-simulator:9090/feed/paperlane/bom.json",
+    "plants": "http://erp-import-simulator:9090/feed/paperlane/plants.json",
+    "workforce": "http://erp-import-simulator:9090/feed/paperlane/workforce.json"
+  }
+}

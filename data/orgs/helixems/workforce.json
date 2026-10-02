@@ -1,0 +1,82 @@
+[
+  {
+    "email": "wei.chen@helixems-uat.example.com",
+    "firstName": "Wei",
+    "lastName": "Chen",
+    "displayName": "Wei Chen — SMT",
+    "plantCode": "HLX-CN-SZN",
+    "departmentCode": "SMT",
+    "role": "SUPERVISOR",
+    "apmId": "HLXWF001"
+  },
+  {
+    "email": "mei.ling@helixems-uat.example.com",
+    "firstName": "Mei",
+    "lastName": "Ling",
+    "displayName": "Mei Ling — QUALITY",
+    "plantCode": "HLX-CN-SZN",
+    "departmentCode": "QUALITY",
+    "role": "QA_INSPECTOR",
+    "apmId": "HLXWF002"
+  },
+  {
+    "email": "jun.hao@helixems-uat.example.com",
+    "firstName": "Jun",
+    "lastName": "Hao",
+    "displayName": "Jun Hao — STORES",
+    "plantCode": "HLX-CN-SZN",
+    "departmentCode": "STORES",
+    "role": "OPERATOR",
+    "apmId": "HLXWF003"
+  },
+  {
+    "email": "priya.nair@helixems-uat.example.com",
+    "firstName": "Priya",
+    "lastName": "Nair",
+    "displayName": "Priya Nair — ASSEMBLY",
+    "plantCode": "HLX-MY-PEN",
+    "departmentCode": "ASSEMBLY",
+    "role": "SUPERVISOR",
+    "apmId": "HLXWF004"
+  },
+  {
+    "email": "azlan.rahman@helixems-uat.example.com",
+    "firstName": "Azlan",
+    "lastName": "Rahman",
+    "displayName": "Azlan Rahman — PACKING",
+    "plantCode": "HLX-MY-PEN",
+    "departmentCode": "PACKING",
+    "role": "OPERATOR",
+    "apmId": "HLXWF005"
+  },
+  {
+    "email": "siti.hassan@helixems-uat.example.com",
+    "firstName": "Siti",
+    "lastName": "Hassan",
+    "displayName": "Siti Hassan — QUALITY",
+    "plantCode": "HLX-MY-PEN",
+    "departmentCode": "QUALITY",
+    "role": "QA_INSPECTOR",
+    "apmId": "HLXWF006"
+  },
+  {
+    "email": "elena.vasquez@helixems-uat.example.com",
+    "firstName": "Elena",
+    "lastName": "Vasquez",
+    "displayName": "Elena Vasquez — NPI",
+    "plantCode": "HLX-US-AUS",
+    "departmentCode": "NPI",
+    "role": "PLANNER",
+    "apmId": "HLXWF007"
+  },
+  {
+    "email": "marcus.cole@helixems-uat.example.com",
+    "firstName": "Marcus",
+    "lastName": "Cole",
+    "displayName": "Marcus Cole — QUALITY",
+    "plantCode": "HLX-US-AUS",
+    "departmentCode": "QUALITY",
+    "role": "QA_INSPECTOR",
+    "apmId": "HLXWF008"
+  }
+]

@@ -29,6 +29,9 @@ Health: http://localhost:9090/health
 | `rheinpumpe` | European industrial pumps |
 | `ashraexports` | Indian knitwear exporter (Tirupur / Coimbatore / Noida) |
 | `meas` | Solder paste, cored wire, bulk metal (1 / 5 / 10 / 25 kg) |
+| `helixems` | Consumer / industrial EMS (AX routers, IoT gateway, MCU allocation) |
+| `paperlane` | Stationery / paper converting (school books, copier reams) |
+| `trailhaus` | Sporting-goods retail brand (DCs, stores, marketplace) |
 
 Each pack: `customers`, `products`, `bom`, `inventory`, `plants`, `workforce`.
 
@@ -67,6 +70,28 @@ https://<your-render-host>/feed/meas/products.json
 https://<your-render-host>/feed/meas/inventory.json
 https://<your-render-host>/feed/meas/inventory.json?plant=MEA-US-HOU
 https://<your-render-host>/feed/meas/bom.json
+```
+
+Helix EMS / Paperlane / Trailhaus (electronics, stationery, sporting-goods retail):
+
+```
+https://<your-render-host>/feed/helixems/customers.json
+https://<your-render-host>/feed/helixems/products.json
+https://<your-render-host>/feed/helixems/inventory.json
+https://<your-render-host>/feed/helixems/inventory.json?plant=HLX-CN-SZN
+https://<your-render-host>/feed/helixems/bom.json
+
+https://<your-render-host>/feed/paperlane/customers.json
+https://<your-render-host>/feed/paperlane/products.json
+https://<your-render-host>/feed/paperlane/inventory.json
+https://<your-render-host>/feed/paperlane/inventory.json?plant=PLN-UG-KLA
+https://<your-render-host>/feed/paperlane/bom.json
+
+https://<your-render-host>/feed/trailhaus/customers.json
+https://<your-render-host>/feed/trailhaus/products.json
+https://<your-render-host>/feed/trailhaus/inventory.json
+https://<your-render-host>/feed/trailhaus/inventory.json?plant=TRL-FR-LYS
+https://<your-render-host>/feed/trailhaus/bom.json
 ```
 
 Do not import plants or workforce through Connectors. Create plant structure in Syntra Plant Management.

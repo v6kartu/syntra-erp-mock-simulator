@@ -1,0 +1,137 @@
+[
+  {
+    "parentProductId": "HLX-FG-RTR-AX1800",
+    "componentCode": "HLX-SA-PCB-AX1800",
+    "componentName": "AX1800 main PCB (SMT)",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "HLX-FG-RTR-AX1800",
+    "componentCode": "HLX-CMP-HOUS-AX",
+    "componentName": "Router housing + antennas",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "HLX-FG-RTR-AX1800",
+    "componentCode": "HLX-CMP-PSU-12V",
+    "componentName": "12V 2A wall adapter",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "HLX-FG-RTR-AX1800",
+    "componentCode": "HLX-CMP-MCU-M33",
+    "componentName": "Cortex-M33 MCU 512k (reel)",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "HLX-SA-PCB-AX1800",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "HLX-FG-RTR-AX1800",
+    "componentCode": "HLX-CMP-DRAM-1G",
+    "componentName": "LPDDR4 1Gb (reel)",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "HLX-SA-PCB-AX1800",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "HLX-FG-RTR-AX1800",
+    "componentCode": "HLX-CMP-PMIC-BUCK",
+    "componentName": "PMIC 4-rail buck",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "HLX-SA-PCB-AX1800",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "HLX-FG-RTR-AX1800",
+    "componentCode": "HLX-CMP-RF-FEM",
+    "componentName": "Wi-Fi 6 FEM",
+    "qtyPerUnit": "2",
+    "level": "1",
+    "parentComponentCode": "HLX-SA-PCB-AX1800",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "HLX-FG-RTR-AX1800",
+    "componentCode": "HLX-CMP-PCB-BARE-AX",
+    "componentName": "Bare 6-layer PCB AX family",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "HLX-SA-PCB-AX1800",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "HLX-FG-RTR-AX3000",
+    "componentCode": "HLX-SA-PCB-AX1800",
+    "componentName": "AX1800 main PCB (SMT)",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "HLX-FG-RTR-AX3000",
+    "componentCode": "HLX-CMP-HOUS-AX",
+    "componentName": "Router housing + antennas",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "HLX-FG-RTR-AX3000",
+    "componentCode": "HLX-CMP-PSU-12V",
+    "componentName": "12V 2A wall adapter",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "HLX-FG-RTR-AX3000",
+    "componentCode": "HLX-CMP-DRAM-1G",
+    "componentName": "LPDDR4 1Gb (reel)",
+    "qtyPerUnit": "2",
+    "level": "1",
+    "parentComponentCode": "HLX-SA-PCB-AX1800",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "HLX-FG-IOT-DIN",
+    "componentCode": "HLX-SA-PCB-IOT",
+    "componentName": "IoT gateway PCB (SMT)",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "HLX-FG-IOT-DIN",
+    "componentCode": "HLX-CMP-MCU-M33",
+    "componentName": "Cortex-M33 MCU 512k (reel)",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "HLX-SA-PCB-IOT",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "HLX-FG-IOT-DIN",
+    "componentCode": "HLX-CMP-PMIC-BUCK",
+    "componentName": "PMIC 4-rail buck",
+    "qtyPerUnit": "1",
+    "level": "1",
+    "parentComponentCode": "HLX-SA-PCB-IOT",
+    "qtyUom": "EA"
+  }
+]

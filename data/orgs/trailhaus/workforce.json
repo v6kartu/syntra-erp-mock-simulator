@@ -1,0 +1,72 @@
+[
+  {
+    "email": "camille.moreau@trailhaus-uat.example.com",
+    "firstName": "Camille",
+    "lastName": "Moreau",
+    "displayName": "Camille Moreau — SOURCING",
+    "plantCode": "TRL-FR-LYS",
+    "departmentCode": "SOURCING",
+    "role": "PLANNER",
+    "apmId": "TRLWF001"
+  },
+  {
+    "email": "hugo.bernard@trailhaus-uat.example.com",
+    "firstName": "Hugo",
+    "lastName": "Bernard",
+    "displayName": "Hugo Bernard — LOGISTICS",
+    "plantCode": "TRL-FR-LYS",
+    "departmentCode": "LOGISTICS",
+    "role": "SUPERVISOR",
+    "apmId": "TRLWF002"
+  },
+  {
+    "email": "léa.petit@trailhaus-uat.example.com",
+    "firstName": "Léa",
+    "lastName": "Petit",
+    "displayName": "Léa Petit — QUALITY",
+    "plantCode": "TRL-FR-LYS",
+    "departmentCode": "QUALITY",
+    "role": "QA_INSPECTOR",
+    "apmId": "TRLWF003"
+  },
+  {
+    "email": "jonas.keller@trailhaus-uat.example.com",
+    "firstName": "Jonas",
+    "lastName": "Keller",
+    "displayName": "Jonas Keller — WAREHOUSE",
+    "plantCode": "TRL-DE-DUI",
+    "departmentCode": "WAREHOUSE",
+    "role": "OPERATOR",
+    "apmId": "TRLWF004"
+  },
+  {
+    "email": "anna.schulz@trailhaus-uat.example.com",
+    "firstName": "Anna",
+    "lastName": "Schulz",
+    "displayName": "Anna Schulz — MERCHANDISING",
+    "plantCode": "TRL-DE-DUI",
+    "departmentCode": "MERCHANDISING",
+    "role": "MERCHANDISER",
+    "apmId": "TRLWF005"
+  },
+  {
+    "email": "marta.rios@trailhaus-uat.example.com",
+    "firstName": "Marta",
+    "lastName": "Rios",
+    "displayName": "Marta Rios — LOGISTICS",
+    "plantCode": "TRL-ES-BCN",
+    "departmentCode": "LOGISTICS",
+    "role": "PLANNER",
+    "apmId": "TRLWF006"
+  },
+  {
+    "email": "pau.serra@trailhaus-uat.example.com",
+    "firstName": "Pau",
+    "lastName": "Serra",
+    "displayName": "Pau Serra — WAREHOUSE",
+    "plantCode": "TRL-ES-BCN",
+    "departmentCode": "WAREHOUSE",
+    "role": "OPERATOR",
+    "apmId": "TRLWF007"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "parentProductId": "TRL-FG-RUN-JKT-BLK-M",
+    "componentCode": "CMT-VALENCIA",
+    "componentName": "CMT Partner Valencia (style drop)",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "TRL-FG-TRAIN-TEE-WHT-M",
+    "componentCode": "CMT-PORTO",
+    "componentName": "Knit Factory Porto (style drop)",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "TRL-FG-TRAIL-SHOE-42",
+    "componentCode": "OEM-VN-FOOT",
+    "componentName": "Footwear OEM Vietnam (pair)",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  },
+  {
+    "parentProductId": "TRL-FG-DAYPACK-25-NVY",
+    "componentCode": "CMT-DHAKA",
+    "componentName": "Bag CMT Dhaka (style drop)",
+    "qtyPerUnit": "1",
+    "level": "0",
+    "parentComponentCode": "",
+    "qtyUom": "EA"
+  }
+]

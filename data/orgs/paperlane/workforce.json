@@ -1,0 +1,72 @@
+[
+  {
+    "email": "ananya.deshpande@paperlane-uat.example.com",
+    "firstName": "Ananya",
+    "lastName": "Deshpande",
+    "displayName": "Ananya Deshpande — PULP",
+    "plantCode": "PLN-IN-PUN",
+    "departmentCode": "PULP",
+    "role": "SUPERVISOR",
+    "apmId": "PLNWF001"
+  },
+  {
+    "email": "rahul.kulkarni@paperlane-uat.example.com",
+    "firstName": "Rahul",
+    "lastName": "Kulkarni",
+    "displayName": "Rahul Kulkarni — QUALITY",
+    "plantCode": "PLN-IN-PUN",
+    "departmentCode": "QUALITY",
+    "role": "QA_INSPECTOR",
+    "apmId": "PLNWF002"
+  },
+  {
+    "email": "namuli.kato@paperlane-uat.example.com",
+    "firstName": "Namuli",
+    "lastName": "Kato",
+    "displayName": "Namuli Kato — CONVERTING",
+    "plantCode": "PLN-UG-KLA",
+    "departmentCode": "CONVERTING",
+    "role": "SUPERVISOR",
+    "apmId": "PLNWF003"
+  },
+  {
+    "email": "joseph.okello@paperlane-uat.example.com",
+    "firstName": "Joseph",
+    "lastName": "Okello",
+    "displayName": "Joseph Okello — PRINT",
+    "plantCode": "PLN-UG-KLA",
+    "departmentCode": "PRINT",
+    "role": "OPERATOR",
+    "apmId": "PLNWF004"
+  },
+  {
+    "email": "aisha.nambi@paperlane-uat.example.com",
+    "firstName": "Aisha",
+    "lastName": "Nambi",
+    "displayName": "Aisha Nambi — QUALITY",
+    "plantCode": "PLN-UG-KLA",
+    "departmentCode": "QUALITY",
+    "role": "QA_INSPECTOR",
+    "apmId": "PLNWF005"
+  },
+  {
+    "email": "daniel.mwangi@paperlane-uat.example.com",
+    "firstName": "Daniel",
+    "lastName": "Mwangi",
+    "displayName": "Daniel Mwangi — LOGISTICS",
+    "plantCode": "PLN-KE-NBO",
+    "departmentCode": "LOGISTICS",
+    "role": "PLANNER",
+    "apmId": "PLNWF006"
+  },
+  {
+    "email": "faith.wanjiru@paperlane-uat.example.com",
+    "firstName": "Faith",
+    "lastName": "Wanjiru",
+    "displayName": "Faith Wanjiru — WAREHOUSE",
+    "plantCode": "PLN-KE-NBO",
+    "departmentCode": "WAREHOUSE",
+    "role": "OPERATOR",
+    "apmId": "PLNWF007"
+  }
+]

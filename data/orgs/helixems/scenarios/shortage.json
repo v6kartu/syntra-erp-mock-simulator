@@ -1,0 +1,8 @@
+{
+  "scenario": "shortage",
+  "skuHints": [
+    "HLX-CMP-MCU-M33",
+    "HLX-CMP-DRAM-1G",
+    "HLX-FG-RTR-AX1800"
+  ]
+}
